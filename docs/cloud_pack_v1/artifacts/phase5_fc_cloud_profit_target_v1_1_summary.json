@@ -1,0 +1,157 @@
+{
+  "generated_at": "2026-02-26T16:31:31.290000+00:00",
+  "stage": "CLOUD_PROFIT_TARGET_V1_1",
+  "status": "PASS_CLEAR",
+  "decision": "PROFIT_TARGET_REACHED_READY_FOR_DEPLOYMENT_GATE",
+  "fail_state": null,
+  "gate": {
+    "status": "PASS",
+    "economic_valid_ratio": 1.0,
+    "required_economic_valid_ratio": 1.0,
+    "tail_worsening_count_guard": 0,
+    "tail_worsening_count_guard_ok": true,
+    "non_ctrl_passes_both_windows": 2,
+    "non_ctrl_passes_min_required": 2,
+    "non_ctrl_passes_ok": true,
+    "variants_passing_both_windows": [
+      "PROFIT_TUNE_A",
+      "PROFIT_TUNE_B"
+    ]
+  },
+  "primary_kpi": "delta_profit_vs_ctrl",
+  "kpi_priority": [
+    "delta_profit_vs_ctrl",
+    "delta_tail_vs_ctrl",
+    "delta_pf_vs_ctrl",
+    "activation_counts"
+  ],
+  "hard_constraints": {
+    "pf_min": 1.1,
+    "max_drawdown_pct": 3.0,
+    "monthly_profit_norm_target": [
+      2.0,
+      2.5
+    ]
+  },
+  "expected_comparisons": 6,
+  "comparisons_total": 6,
+  "comparisons_with_economic_valid": 6,
+  "variants": [
+    {
+      "variant": "PROFIT_TUNE_A",
+      "windows_evaluated": 2,
+      "windows_with_economic_valid": 2,
+      "windows_passing_hard_constraints": 2,
+      "passes_both_windows": true,
+      "delta_profit_vs_ctrl": 0.72,
+      "delta_tail_vs_ctrl": -0.0008,
+      "delta_pf_vs_ctrl": 0.065,
+      "avg_monthly_profit_norm_pct": 2.185,
+      "tail_worsening_count": 0
+    },
+    {
+      "variant": "PROFIT_TUNE_B",
+      "windows_evaluated": 2,
+      "windows_with_economic_valid": 2,
+      "windows_passing_hard_constraints": 2,
+      "passes_both_windows": true,
+      "delta_profit_vs_ctrl": 1.56,
+      "delta_tail_vs_ctrl": -0.00135,
+      "delta_pf_vs_ctrl": 0.04,
+      "avg_monthly_profit_norm_pct": 2.285,
+      "tail_worsening_count": 0
+    },
+    {
+      "variant": "PROFIT_TUNE_C",
+      "windows_evaluated": 2,
+      "windows_with_economic_valid": 2,
+      "windows_passing_hard_constraints": 1,
+      "passes_both_windows": false,
+      "delta_profit_vs_ctrl": -1.17,
+      "delta_tail_vs_ctrl": -0.0009,
+      "delta_pf_vs_ctrl": -0.065,
+      "avg_monthly_profit_norm_pct": 1.925,
+      "tail_worsening_count": 0
+    }
+  ],
+  "failure_modes_top3": {
+    "LW6M": [
+      {
+        "variant": "PROFIT_TUNE_C",
+        "severity_score": 22.0,
+        "delta_profit_vs_ctrl": 1.26,
+        "delta_tail_vs_ctrl": -0.0004,
+        "delta_pf_vs_ctrl": -0.03,
+        "monthly_profit_norm_pct": 1.78,
+        "pf": 1.19,
+        "economic_metrics_valid": true,
+        "passes_hard_constraints": false,
+        "reasons": [
+          "monthly_profit_out_of_target (1.7800)"
+        ]
+      },
+      {
+        "variant": "PROFIT_TUNE_A",
+        "severity_score": 0.0,
+        "delta_profit_vs_ctrl": 3.72,
+        "delta_tail_vs_ctrl": -0.0008,
+        "delta_pf_vs_ctrl": 0.09,
+        "monthly_profit_norm_pct": 2.19,
+        "pf": 1.31,
+        "economic_metrics_valid": true,
+        "passes_hard_constraints": true,
+        "reasons": []
+      },
+      {
+        "variant": "PROFIT_TUNE_B",
+        "severity_score": 0.0,
+        "delta_profit_vs_ctrl": 4.44,
+        "delta_tail_vs_ctrl": -0.0014,
+        "delta_pf_vs_ctrl": 0.06,
+        "monthly_profit_norm_pct": 2.31,
+        "pf": 1.28,
+        "economic_metrics_valid": true,
+        "passes_hard_constraints": true,
+        "reasons": []
+      }
+    ],
+    "LW12M": [
+      {
+        "variant": "PROFIT_TUNE_A",
+        "severity_score": 0.0,
+        "delta_profit_vs_ctrl": -2.28,
+        "delta_tail_vs_ctrl": -0.0008,
+        "delta_pf_vs_ctrl": 0.04,
+        "monthly_profit_norm_pct": 2.18,
+        "pf": 1.35,
+        "economic_metrics_valid": true,
+        "passes_hard_constraints": true,
+        "reasons": []
+      },
+      {
+        "variant": "PROFIT_TUNE_B",
+        "severity_score": 0.0,
+        "delta_profit_vs_ctrl": -1.32,
+        "delta_tail_vs_ctrl": -0.0013,
+        "delta_pf_vs_ctrl": 0.02,
+        "monthly_profit_norm_pct": 2.26,
+        "pf": 1.33,
+        "economic_metrics_valid": true,
+        "passes_hard_constraints": true,
+        "reasons": []
+      },
+      {
+        "variant": "PROFIT_TUNE_C",
+        "severity_score": 0.0,
+        "delta_profit_vs_ctrl": -3.6,
+        "delta_tail_vs_ctrl": -0.0014,
+        "delta_pf_vs_ctrl": -0.1,
+        "monthly_profit_norm_pct": 2.07,
+        "pf": 1.21,
+        "economic_metrics_valid": true,
+        "passes_hard_constraints": true,
+        "reasons": []
+      }
+    ]
+  }
+}

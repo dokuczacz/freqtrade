@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-02-26T16:31:31.290000+00:00",
+  "stage": "CLOUD_PROFIT_TARGET_V1_1",
+  "validation_type": "json_parse_and_integrity",
+  "all_checks_pass": true,
+  "checks": [
+    {
+      "file": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_1_manifest.json",
+      "exists": true,
+      "sha256_match": true,
+      "computed_sha256": "24a11ba55b441674475f6231f575452d9bb8d26ec73d86571ad57ea8bd272a7c",
+      "size_bytes": 8468,
+      "json_parse_ok": true
+    },
+    {
+      "file": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_1_execution_results.json",
+      "exists": true,
+      "sha256_match": true,
+      "computed_sha256": "728b07baf958385d4c53affa2dee0d6cb801a418c521676b888b992d61e81b4b",
+      "size_bytes": 19327,
+      "json_parse_ok": true
+    },
+    {
+      "file": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_1_summary.json",
+      "exists": true,
+      "sha256_match": true,
+      "computed_sha256": "c822a60753ced8c9d69d97ea7eba011fb10b4d04d9a329b8cfa921e04a8f9cbd",
+      "size_bytes": 4454,
+      "json_parse_ok": true
+    },
+    {
+      "file": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_1_decision_summary.json",
+      "exists": true,
+      "sha256_match": true,
+      "computed_sha256": "a903712f02f6a3f68a9c06c421b3c6cac18efe76a73aa6a9d3afb29d35eee9d6",
+      "size_bytes": 833,
+      "json_parse_ok": true
+    },
+    {
+      "file": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_1_failure_modes_top3.json",
+      "exists": true,
+      "sha256_match": true,
+      "computed_sha256": "632996db8789fc6784e86349658e08ad52770da45f555dfc2f5a51ceac7fcd6e",
+      "size_bytes": 2435,
+      "json_parse_ok": true
+    },
+    {
+      "file": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_1_shadow_ml_summary.json",
+      "exists": true,
+      "sha256_match": true,
+      "computed_sha256": "cc2de1c9375fa28e195dbaa29fa20aaea9a46d06a7ad763d842676414dd87208",
+      "size_bytes": 4856,
+      "json_parse_ok": true
+    },
+    {
+      "file": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_1_sot_update_patch.json",
+      "exists": true,
+      "sha256_match": true,
+      "computed_sha256": "7a36b90e5e71c727920e93cc38510625f42d77a1f4f52ce635f8f39c1df766e3",
+      "size_bytes": 825,
+      "json_parse_ok": true
+    },
+    {
+      "file": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_1_table.csv",
+      "exists": true,
+      "sha256_match": true,
+      "computed_sha256": "3fb68eb7e06992ca36c79a9b43d1ab39c6628cdcc7dee32604231e22ad88bf16",
+      "size_bytes": 885
+    }
+  ],
+  "index_integrity_status": "PASS",
+  "runtime_deps_status": "PASS",
+  "runtime_deps": [
+    {
+      "path": "docs/cloud_pack_v1/strategies/BTCFuturesCalmLS.py",
+      "exists": true
+    },
+    {
+      "path": "docs/cloud_pack_v1/scripts/stake_guard_tools.py",
+      "exists": true
+    }
+  ]
+}

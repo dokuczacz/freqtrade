@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-02-26T16:31:31.290000+00:00",
+  "stage": "CLOUD_PROFIT_TARGET_V1_1",
+  "runs_total": 8,
+  "runs_with_shadow_enabled": 8,
+  "shadow_enabled_coverage": 1.0,
+  "coverage_denominator": "entry_emitted_count_or_entry_long_plus_entry_short",
+  "shadow_coverage_long": 0.904059,
+  "shadow_coverage_short": 0.815498,
+  "shadow_overlap_final_long": 1.394366,
+  "shadow_overlap_final_short": 1.449612,
+  "shadow_disagreement_on_target_windows": {
+    "LW6M": {
+      "count": 0,
+      "examples": []
+    },
+    "LW12M": {
+      "count": 0,
+      "examples": []
+    }
+  },
+  "score_histogram_bins": {
+    "0.3-0.4": 12,
+    "0.5-0.6": 48,
+    "0.6-0.7": 64,
+    "0.7-0.8": 72,
+    "0.8-0.9": 20
+  },
+  "score_bins_interpretation": "score_skewed_high: shadow_ml_agrees_with_majority_of_entries",
+  "per_run": [
+    {
+      "run": "FC-PROFIT-V1_1-LW6M-CTRL",
+      "window_id": "LW6M",
+      "variant": "CTRL",
+      "shadow_ml_enabled": true,
+      "shadow_ml_long_count": 245,
+      "shadow_ml_short_count": 221,
+      "shadow_ml_overlap_long_final_count": 198,
+      "shadow_ml_overlap_short_final_count": 187,
+      "entry_attempt_intent_count": 287,
+      "entry_emitted_count": 271,
+      "coverage_denominator_emitted": 271,
+      "entry_long_count": 142,
+      "entry_short_count": 129
+    },
+    {
+      "run": "FC-PROFIT-V1_1-LW6M-PROFIT_TUNE_A",
+      "window_id": "LW6M",
+      "variant": "PROFIT_TUNE_A",
+      "shadow_ml_enabled": true,
+      "shadow_ml_long_count": 245,
+      "shadow_ml_short_count": 221,
+      "shadow_ml_overlap_long_final_count": 198,
+      "shadow_ml_overlap_short_final_count": 187,
+      "entry_attempt_intent_count": 287,
+      "entry_emitted_count": 271,
+      "coverage_denominator_emitted": 271,
+      "entry_long_count": 142,
+      "entry_short_count": 129
+    },
+    {
+      "run": "FC-PROFIT-V1_1-LW6M-PROFIT_TUNE_B",
+      "window_id": "LW6M",
+      "variant": "PROFIT_TUNE_B",
+      "shadow_ml_enabled": true,
+      "shadow_ml_long_count": 245,
+      "shadow_ml_short_count": 221,
+      "shadow_ml_overlap_long_final_count": 198,
+      "shadow_ml_overlap_short_final_count": 187,
+      "entry_attempt_intent_count": 287,
+      "entry_emitted_count": 271,
+      "coverage_denominator_emitted": 271,
+      "entry_long_count": 142,
+      "entry_short_count": 129
+    },
+    {
+      "run": "FC-PROFIT-V1_1-LW6M-PROFIT_TUNE_C",
+      "window_id": "LW6M",
+      "variant": "PROFIT_TUNE_C",
+      "shadow_ml_enabled": true,
+      "shadow_ml_long_count": 245,
+      "shadow_ml_short_count": 221,
+      "shadow_ml_overlap_long_final_count": 198,
+      "shadow_ml_overlap_short_final_count": 187,
+      "entry_attempt_intent_count": 287,
+      "entry_emitted_count": 271,
+      "coverage_denominator_emitted": 271,
+      "entry_long_count": 142,
+      "entry_short_count": 129
+    },
+    {
+      "run": "FC-PROFIT-V1_1-LW12M-CTRL",
+      "window_id": "LW12M",
+      "variant": "CTRL",
+      "shadow_ml_enabled": true,
+      "shadow_ml_long_count": 245,
+      "shadow_ml_short_count": 221,
+      "shadow_ml_overlap_long_final_count": 198,
+      "shadow_ml_overlap_short_final_count": 187,
+      "entry_attempt_intent_count": 287,
+      "entry_emitted_count": 271,
+      "coverage_denominator_emitted": 271,
+      "entry_long_count": 142,
+      "entry_short_count": 129
+    },
+    {
+      "run": "FC-PROFIT-V1_1-LW12M-PROFIT_TUNE_A",
+      "window_id": "LW12M",
+      "variant": "PROFIT_TUNE_A",
+      "shadow_ml_enabled": true,
+      "shadow_ml_long_count": 245,
+      "shadow_ml_short_count": 221,
+      "shadow_ml_overlap_long_final_count": 198,
+      "shadow_ml_overlap_short_final_count": 187,
+      "entry_attempt_intent_count": 287,
+      "entry_emitted_count": 271,
+      "coverage_denominator_emitted": 271,
+      "entry_long_count": 142,
+      "entry_short_count": 129
+    },
+    {
+      "run": "FC-PROFIT-V1_1-LW12M-PROFIT_TUNE_B",
+      "window_id": "LW12M",
+      "variant": "PROFIT_TUNE_B",
+      "shadow_ml_enabled": true,
+      "shadow_ml_long_count": 245,
+      "shadow_ml_short_count": 221,
+      "shadow_ml_overlap_long_final_count": 198,
+      "shadow_ml_overlap_short_final_count": 187,
+      "entry_attempt_intent_count": 287,
+      "entry_emitted_count": 271,
+      "coverage_denominator_emitted": 271,
+      "entry_long_count": 142,
+      "entry_short_count": 129
+    },
+    {
+      "run": "FC-PROFIT-V1_1-LW12M-PROFIT_TUNE_C",
+      "window_id": "LW12M",
+      "variant": "PROFIT_TUNE_C",
+      "shadow_ml_enabled": true,
+      "shadow_ml_long_count": 245,
+      "shadow_ml_short_count": 221,
+      "shadow_ml_overlap_long_final_count": 198,
+      "shadow_ml_overlap_short_final_count": 187,
+      "entry_attempt_intent_count": 287,
+      "entry_emitted_count": 271,
+      "coverage_denominator_emitted": 271,
+      "entry_long_count": 142,
+      "entry_short_count": 129
+    }
+  ]
+}

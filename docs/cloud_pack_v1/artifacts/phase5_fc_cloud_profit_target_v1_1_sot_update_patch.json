@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-02-26T16:31:31.290000+00:00",
+  "patch_type": "delta_to_checkpoint",
+  "stage": "CLOUD_PROFIT_TARGET_V1_1",
+  "status": "PASS_CLEAR",
+  "decision": "PROFIT_TARGET_REACHED_READY_FOR_DEPLOYMENT_GATE",
+  "variants_passing_both_windows": [
+    "PROFIT_TUNE_A",
+    "PROFIT_TUNE_B"
+  ],
+  "non_ctrl_passes_both": 2,
+  "tail_worsening_total": 0,
+  "economic_valid_ratio": 1.0,
+  "artifacts": {
+    "summary": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_1_summary.json",
+    "decision_summary": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_1_decision_summary.json",
+    "table": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_1_table.csv",
+    "failure_modes_top3": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_1_failure_modes_top3.json"
+  }
+}

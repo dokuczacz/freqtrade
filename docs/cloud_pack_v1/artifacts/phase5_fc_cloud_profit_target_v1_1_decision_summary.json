@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-02-26T16:31:31.290000+00:00",
+  "stage": "CLOUD_PROFIT_TARGET_V1_1",
+  "status": "PASS_CLEAR",
+  "decision": "PROFIT_TARGET_REACHED_READY_FOR_DEPLOYMENT_GATE",
+  "fail_state": null,
+  "primary_kpi_diff": {
+    "metric": "delta_profit_vs_ctrl",
+    "per_variant": {
+      "PROFIT_TUNE_A": 0.72,
+      "PROFIT_TUNE_B": 1.56,
+      "PROFIT_TUNE_C": -1.17
+    }
+  },
+  "gate_summary": {
+    "status": "PASS",
+    "economic_valid_ratio": 1.0,
+    "required_economic_valid_ratio": 1.0,
+    "tail_worsening_count_guard": 0,
+    "tail_worsening_count_guard_ok": true,
+    "non_ctrl_passes_both_windows": 2,
+    "non_ctrl_passes_min_required": 2,
+    "non_ctrl_passes_ok": true,
+    "variants_passing_both_windows": [
+      "PROFIT_TUNE_A",
+      "PROFIT_TUNE_B"
+    ]
+  },
+  "recommended_next_step": "DEPLOY_GATE"
+}
