@@ -1,0 +1,150 @@
+{
+  "generated_at": "2026-02-26T15:50:14.182644+00:00",
+  "stage": "ANCHOR_TAIL2x3_V5",
+  "status": "PASS_CLEAR",
+  "decision": "TAIL_GUARD_LOGIC_REWORK_REQUIRED",
+  "fail_state": "TAIL_IMPACT_NOT_IMPROVED",
+  "gate": {
+    "status": "FAIL",
+    "rule": "activation_total>0 AND force_on_activations>0 AND SOFT delta_tail<=0 in W002/W012 AND SOFT delta_profit>=-0.10 in W002/W012",
+    "economic_valid_ratio": 1.0,
+    "required_economic_valid_ratio": 1.0,
+    "vol_shock_kill_activations_total": 146,
+    "vol_shock_force_on_activations_total": 144,
+    "vol_shock_soft_activations_total": 2,
+    "vol_shock_activation_required": true,
+    "force_on_activation_required": true,
+    "soft_tail_nonpositive_all_windows": false,
+    "soft_profit_degradation_floor": -0.1,
+    "soft_profit_floor_ok_all_windows": true
+  },
+  "expected_comparisons": 4,
+  "comparisons_total": 4,
+  "comparisons_with_economic_valid": 4,
+  "variants": [
+    {
+      "variant": "VOL_SHOCK_FORCE_ON",
+      "windows_with_ctrl": 2,
+      "windows_with_economic_valid": 2,
+      "tail_nonpositive_windows": 0,
+      "profit_floor_ok_windows": 0,
+      "delta_tail_vs_ctrl": 0.001325,
+      "delta_pf_vs_ctrl": -0.281332,
+      "delta_profit_vs_ctrl": -0.28,
+      "vol_shock_kill_activations": 144
+    },
+    {
+      "variant": "VOL_SHOCK_SOFT",
+      "windows_with_ctrl": 2,
+      "windows_with_economic_valid": 2,
+      "tail_nonpositive_windows": 0,
+      "profit_floor_ok_windows": 2,
+      "delta_tail_vs_ctrl": 0.0015,
+      "delta_pf_vs_ctrl": 0.201574,
+      "delta_profit_vs_ctrl": -0.07,
+      "vol_shock_kill_activations": 2
+    }
+  ],
+  "targeted_debug": {
+    "W002": {
+      "force_on": {
+        "delta_tail_vs_ctrl": 0.001325,
+        "delta_profit_vs_ctrl": -0.28,
+        "delta_pf_vs_ctrl": -0.281332,
+        "vol_shock_kill_activations": 72
+      },
+      "soft": {
+        "delta_tail_vs_ctrl": 0.0015,
+        "delta_profit_vs_ctrl": -0.07,
+        "delta_pf_vs_ctrl": 0.201574,
+        "vol_shock_kill_activations": 1
+      },
+      "soft_minus_force_on": {
+        "delta_tail_vs_ctrl": 0.000175,
+        "delta_profit_vs_ctrl": 0.21,
+        "delta_pf_vs_ctrl": 0.482906,
+        "vol_shock_kill_activations": -71
+      }
+    },
+    "W012": {
+      "force_on": {
+        "delta_tail_vs_ctrl": 0.001325,
+        "delta_profit_vs_ctrl": -0.28,
+        "delta_pf_vs_ctrl": -0.281332,
+        "vol_shock_kill_activations": 72
+      },
+      "soft": {
+        "delta_tail_vs_ctrl": 0.0015,
+        "delta_profit_vs_ctrl": -0.07,
+        "delta_pf_vs_ctrl": 0.201574,
+        "vol_shock_kill_activations": 1
+      },
+      "soft_minus_force_on": {
+        "delta_tail_vs_ctrl": 0.000175,
+        "delta_profit_vs_ctrl": 0.21,
+        "delta_pf_vs_ctrl": 0.482906,
+        "vol_shock_kill_activations": -71
+      }
+    }
+  },
+  "failure_modes_top3": {
+    "W002": [
+      {
+        "variant": "VOL_SHOCK_FORCE_ON",
+        "severity_score": 19.325,
+        "delta_tail_vs_ctrl": 0.001325,
+        "delta_profit_vs_ctrl": -0.28,
+        "delta_pf_vs_ctrl": -0.281332,
+        "economic_metrics_valid": true,
+        "profit_floor_ok": false,
+        "vol_shock_kill_activations": 72,
+        "reasons": [
+          "tail_not_improved",
+          "profit_degradation_limit_exceeded"
+        ]
+      },
+      {
+        "variant": "VOL_SHOCK_SOFT",
+        "severity_score": 1.5,
+        "delta_tail_vs_ctrl": 0.0015,
+        "delta_profit_vs_ctrl": -0.07,
+        "delta_pf_vs_ctrl": 0.201574,
+        "economic_metrics_valid": true,
+        "profit_floor_ok": true,
+        "vol_shock_kill_activations": 1,
+        "reasons": [
+          "tail_not_improved"
+        ]
+      }
+    ],
+    "W012": [
+      {
+        "variant": "VOL_SHOCK_FORCE_ON",
+        "severity_score": 19.325,
+        "delta_tail_vs_ctrl": 0.001325,
+        "delta_profit_vs_ctrl": -0.28,
+        "delta_pf_vs_ctrl": -0.281332,
+        "economic_metrics_valid": true,
+        "profit_floor_ok": false,
+        "vol_shock_kill_activations": 72,
+        "reasons": [
+          "tail_not_improved",
+          "profit_degradation_limit_exceeded"
+        ]
+      },
+      {
+        "variant": "VOL_SHOCK_SOFT",
+        "severity_score": 1.5,
+        "delta_tail_vs_ctrl": 0.0015,
+        "delta_profit_vs_ctrl": -0.07,
+        "delta_pf_vs_ctrl": 0.201574,
+        "economic_metrics_valid": true,
+        "profit_floor_ok": true,
+        "vol_shock_kill_activations": 1,
+        "reasons": [
+          "tail_not_improved"
+        ]
+      }
+    ]
+  }
+}

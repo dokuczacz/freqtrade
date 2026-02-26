@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-02-26T16:12:01.239477+00:00",
+  "stage": "ANCHOR_TAIL2x3_V7",
+  "status": "PASS_CLEAR",
+  "decision": "GUARD_FAMILY_TERMINATED_NEW_HYPOTHESIS_REQUIRED",
+  "fail_state": "TAIL_GUARD_FAMILY_TERMINATED_NEW_HYPOTHESIS_REQUIRED",
+  "guard_family_stop": true,
+  "next_action_if_family_stop": "new_hypothesis_required",
+  "gate": {
+    "status": "FAIL",
+    "rule": "activation_total>0 AND force_on_activations>0 AND SOFT delta_tail<=0 in W002/W012 AND SOFT delta_profit>=-0.03 in W002/W012",
+    "economic_valid_ratio": 1.0,
+    "required_economic_valid_ratio": 1.0,
+    "vol_shock_kill_activations_total": 176,
+    "vol_shock_force_on_activations_total": 144,
+    "vol_shock_soft_activations_total": 32,
+    "vol_shock_activation_required": true,
+    "force_on_activation_required": true,
+    "soft_tail_nonpositive_all_windows": false,
+    "soft_profit_degradation_floor": -0.03,
+    "soft_profit_floor_ok_all_windows": false
+  },
+  "expected_comparisons": 4,
+  "comparisons_total": 4,
+  "comparisons_with_economic_valid": 4,
+  "variants": [
+    {
+      "variant": "VOL_SHOCK_FORCE_ON",
+      "windows_with_ctrl": 2,
+      "windows_with_economic_valid": 2,
+      "tail_nonpositive_windows": 0,
+      "profit_floor_ok_windows": 0,
+      "delta_tail_vs_ctrl": 0.001325,
+      "delta_pf_vs_ctrl": -0.281332,
+      "delta_profit_vs_ctrl": -0.28,
+      "vol_shock_kill_activations": 144
+    },
+    {
+      "variant": "VOL_SHOCK_SOFT",
+      "windows_with_ctrl": 2,
+      "windows_with_economic_valid": 2,
+      "tail_nonpositive_windows": 0,
+      "profit_floor_ok_windows": 0,
+      "delta_tail_vs_ctrl": 0.002998,
+      "delta_pf_vs_ctrl": 0.162421,
+      "delta_profit_vs_ctrl": -0.14,
+      "vol_shock_kill_activations": 32
+    }
+  ],
+  "targeted_debug": {
+    "W002": {
+      "force_on": {
+        "delta_tail_vs_ctrl": 0.001325,
+        "delta_profit_vs_ctrl": -0.28,
+        "delta_pf_vs_ctrl": -0.281332,
+        "vol_shock_kill_activations": 72
+      },
+      "soft": {
+        "delta_tail_vs_ctrl": 0.002998,
+        "delta_profit_vs_ctrl": -0.14,
+        "delta_pf_vs_ctrl": 0.162421,
+        "vol_shock_kill_activations": 16
+      },
+      "soft_minus_force_on": {
+        "delta_tail_vs_ctrl": 0.001673,
+        "delta_profit_vs_ctrl": 0.14,
+        "delta_pf_vs_ctrl": 0.443753,
+        "vol_shock_kill_activations": -56
+      }
+    },
+    "W012": {
+      "force_on": {
+        "delta_tail_vs_ctrl": 0.001325,
+        "delta_profit_vs_ctrl": -0.28,
+        "delta_pf_vs_ctrl": -0.281332,
+        "vol_shock_kill_activations": 72
+      },
+      "soft": {
+        "delta_tail_vs_ctrl": 0.002998,
+        "delta_profit_vs_ctrl": -0.14,
+        "delta_pf_vs_ctrl": 0.162421,
+        "vol_shock_kill_activations": 16
+      },
+      "soft_minus_force_on": {
+        "delta_tail_vs_ctrl": 0.001673,
+        "delta_profit_vs_ctrl": 0.14,
+        "delta_pf_vs_ctrl": 0.443753,
+        "vol_shock_kill_activations": -56
+      }
+    }
+  },
+  "failure_modes_top3": {
+    "W002": [
+      {
+        "variant": "VOL_SHOCK_FORCE_ON",
+        "severity_score": 26.325,
+        "delta_tail_vs_ctrl": 0.001325,
+        "delta_profit_vs_ctrl": -0.28,
+        "delta_pf_vs_ctrl": -0.281332,
+        "economic_metrics_valid": true,
+        "profit_floor_ok": false,
+        "vol_shock_kill_activations": 72,
+        "reasons": [
+          "tail_not_improved",
+          "profit_degradation_limit_exceeded"
+        ]
+      },
+      {
+        "variant": "VOL_SHOCK_SOFT",
+        "severity_score": 13.998,
+        "delta_tail_vs_ctrl": 0.002998,
+        "delta_profit_vs_ctrl": -0.14,
+        "delta_pf_vs_ctrl": 0.162421,
+        "economic_metrics_valid": true,
+        "profit_floor_ok": false,
+        "vol_shock_kill_activations": 16,
+        "reasons": [
+          "tail_not_improved",
+          "profit_degradation_limit_exceeded"
+        ]
+      }
+    ],
+    "W012": [
+      {
+        "variant": "VOL_SHOCK_FORCE_ON",
+        "severity_score": 26.325,
+        "delta_tail_vs_ctrl": 0.001325,
+        "delta_profit_vs_ctrl": -0.28,
+        "delta_pf_vs_ctrl": -0.281332,
+        "economic_metrics_valid": true,
+        "profit_floor_ok": false,
+        "vol_shock_kill_activations": 72,
+        "reasons": [
+          "tail_not_improved",
+          "profit_degradation_limit_exceeded"
+        ]
+      },
+      {
+        "variant": "VOL_SHOCK_SOFT",
+        "severity_score": 13.998,
+        "delta_tail_vs_ctrl": 0.002998,
+        "delta_profit_vs_ctrl": -0.14,
+        "delta_pf_vs_ctrl": 0.162421,
+        "economic_metrics_valid": true,
+        "profit_floor_ok": false,
+        "vol_shock_kill_activations": 16,
+        "reasons": [
+          "tail_not_improved",
+          "profit_degradation_limit_exceeded"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-02-26T16:12:01.240480+00:00",
+  "stage": "ANCHOR_TAIL2x3_V7",
+  "targeted_windows": [
+    "W002",
+    "W012"
+  ],
+  "failure_modes_top3": {
+    "W002": [
+      {
+        "variant": "VOL_SHOCK_FORCE_ON",
+        "severity_score": 26.325,
+        "delta_tail_vs_ctrl": 0.001325,
+        "delta_profit_vs_ctrl": -0.28,
+        "delta_pf_vs_ctrl": -0.281332,
+        "economic_metrics_valid": true,
+        "profit_floor_ok": false,
+        "vol_shock_kill_activations": 72,
+        "reasons": [
+          "tail_not_improved",
+          "profit_degradation_limit_exceeded"
+        ]
+      },
+      {
+        "variant": "VOL_SHOCK_SOFT",
+        "severity_score": 13.998,
+        "delta_tail_vs_ctrl": 0.002998,
+        "delta_profit_vs_ctrl": -0.14,
+        "delta_pf_vs_ctrl": 0.162421,
+        "economic_metrics_valid": true,
+        "profit_floor_ok": false,
+        "vol_shock_kill_activations": 16,
+        "reasons": [
+          "tail_not_improved",
+          "profit_degradation_limit_exceeded"
+        ]
+      }
+    ],
+    "W012": [
+      {
+        "variant": "VOL_SHOCK_FORCE_ON",
+        "severity_score": 26.325,
+        "delta_tail_vs_ctrl": 0.001325,
+        "delta_profit_vs_ctrl": -0.28,
+        "delta_pf_vs_ctrl": -0.281332,
+        "economic_metrics_valid": true,
+        "profit_floor_ok": false,
+        "vol_shock_kill_activations": 72,
+        "reasons": [
+          "tail_not_improved",
+          "profit_degradation_limit_exceeded"
+        ]
+      },
+      {
+        "variant": "VOL_SHOCK_SOFT",
+        "severity_score": 13.998,
+        "delta_tail_vs_ctrl": 0.002998,
+        "delta_profit_vs_ctrl": -0.14,
+        "delta_pf_vs_ctrl": 0.162421,
+        "economic_metrics_valid": true,
+        "profit_floor_ok": false,
+        "vol_shock_kill_activations": 16,
+        "reasons": [
+          "tail_not_improved",
+          "profit_degradation_limit_exceeded"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+window_id,anchor_id,variant,economic_metrics_valid,must_hit_rate_proxy,ctrl_must_hit_rate_proxy,delta_must_hit_rate_vs_ctrl,profit_total_pct,ctrl_profit_total_pct,delta_profit_vs_ctrl,pf,ctrl_pf,delta_pf_vs_ctrl,tail,ctrl_tail,delta_tail_vs_ctrl,tail_nonpositive_vs_ctrl,profit_floor_ok,vol_shock_kill_activations
+W002,ANCH18M-010,VOL_SHOCK_FORCE_ON,True,0.0,0.0,0.0,-0.65,-0.37,-0.28,0.0,0.281332,-0.281332,0.00652,0.005194,0.001325,False,False,72
+W002,ANCH18M-010,VOL_SHOCK_SOFT,True,0.0,0.0,0.0,-0.51,-0.37,-0.14,0.443753,0.281332,0.162421,0.008192,0.005194,0.002998,False,False,16
+W012,ANCH18M-011,VOL_SHOCK_FORCE_ON,True,0.0,0.0,0.0,-0.65,-0.37,-0.28,0.0,0.281332,-0.281332,0.00652,0.005194,0.001325,False,False,72
+W012,ANCH18M-011,VOL_SHOCK_SOFT,True,0.0,0.0,0.0,-0.51,-0.37,-0.14,0.443753,0.281332,0.162421,0.008192,0.005194,0.002998,False,False,16
