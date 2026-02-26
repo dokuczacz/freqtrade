@@ -1,0 +1,29 @@
+{
+  "task_id": "phase5_fc_cloud_profit_target_v1",
+  "analyzed_at": "2026-02-26T15:27:24.338786+00:00",
+  "mode": "telemetry_only",
+  "decision_impact": false,
+  "note": "Shadow ML weight was 0.0 in all variants. Telemetry logged but no entry/exit decisions were influenced.",
+  "shadow_ml_weight_values": [
+    [
+      "baseline_A",
+      0.0
+    ],
+    [
+      "variant_ed1",
+      0.0
+    ],
+    [
+      "variant_ed3",
+      0.0
+    ],
+    [
+      "variant_ed4",
+      0.0
+    ],
+    [
+      "variant_ed5",
+      0.0
+    ]
+  ]
+}

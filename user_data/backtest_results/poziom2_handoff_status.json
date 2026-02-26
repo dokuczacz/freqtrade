@@ -1,0 +1,11 @@
+{
+  "sot_checkpoints": [
+    {
+      "task_id": "phase5_fc_cloud_profit_target_v1",
+      "decision": "PASS",
+      "updated_at": "2026-02-26T15:27:24.340388+00:00"
+    }
+  ],
+  "last_task_id": "phase5_fc_cloud_profit_target_v1",
+  "last_decision": "PASS"
+}

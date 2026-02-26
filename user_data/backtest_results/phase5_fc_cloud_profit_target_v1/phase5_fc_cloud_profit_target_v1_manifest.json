@@ -1,0 +1,86 @@
+{
+  "task_id": "phase5_fc_cloud_profit_target_v1",
+  "strategy": "BTCFuturesCalmLS",
+  "generated_at": "2026-02-26T15:27:24.299703+00:00",
+  "optimisation_axis": "EXIT_DELAY",
+  "shadow_ml_mode": "telemetry_only",
+  "hard_constraints": {
+    "pf_min": 1.1,
+    "max_drawdown_pct_max": 3.0,
+    "tail_worsening_count_guard": 0,
+    "economic_metrics_valid_ratio": 1.0,
+    "monthly_profit_norm_pct_min": 2.0,
+    "monthly_profit_norm_pct_max": 2.5,
+    "require_both_windows": true
+  },
+  "execution_policy": {
+    "max_cpu_pct": 75,
+    "fallback_workers": 1,
+    "rerun_on_infra_fail": true,
+    "stop_on_invalid_economics": true
+  },
+  "windows": {
+    "LW6M": {
+      "timerange": "20230601-20231201",
+      "label": "6-month window"
+    },
+    "LW12M": {
+      "timerange": "20230101-20231231",
+      "label": "12-month window"
+    }
+  },
+  "variants": [
+    {
+      "run_id": "baseline_A",
+      "is_control": true,
+      "exit_delay": 2,
+      "atr_calm_threshold": 0.01,
+      "rsi_entry_long": 40,
+      "rsi_entry_short": 60,
+      "shadow_ml_weight": 0.0,
+      "description": "Baseline A \u2014 anchor (EXIT_DELAY=2)"
+    },
+    {
+      "run_id": "variant_ed1",
+      "is_control": false,
+      "exit_delay": 1,
+      "atr_calm_threshold": 0.01,
+      "rsi_entry_long": 40,
+      "rsi_entry_short": 60,
+      "shadow_ml_weight": 0.0,
+      "description": "EXIT_DELAY=1 variant"
+    },
+    {
+      "run_id": "variant_ed3",
+      "is_control": false,
+      "exit_delay": 3,
+      "atr_calm_threshold": 0.01,
+      "rsi_entry_long": 40,
+      "rsi_entry_short": 60,
+      "shadow_ml_weight": 0.0,
+      "description": "EXIT_DELAY=3 variant"
+    },
+    {
+      "run_id": "variant_ed4",
+      "is_control": false,
+      "exit_delay": 4,
+      "atr_calm_threshold": 0.01,
+      "rsi_entry_long": 40,
+      "rsi_entry_short": 60,
+      "shadow_ml_weight": 0.0,
+      "description": "EXIT_DELAY=4 variant"
+    },
+    {
+      "run_id": "variant_ed5",
+      "is_control": false,
+      "exit_delay": 5,
+      "atr_calm_threshold": 0.01,
+      "rsi_entry_long": 40,
+      "rsi_entry_short": 60,
+      "shadow_ml_weight": 0.0,
+      "description": "EXIT_DELAY=5 variant"
+    }
+  ],
+  "total_runs": 10,
+  "non_control_runs": 8
+}

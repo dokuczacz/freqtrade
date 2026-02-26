@@ -1,0 +1,22 @@
+{
+  "task_id": "phase5_fc_cloud_profit_target_v1",
+  "analyzed_at": "2026-02-26T15:27:24.338786+00:00",
+  "decision": "PASS",
+  "pass_criteria": {
+    "all_hard_constraints_pass": true,
+    "non_control_passes_min": 2,
+    "non_control_passes_actual": 4
+  },
+  "next_step_recommendation": "Promote variant_ed3 or variant_ed4 as new anchor; run full LW12M regression before prod deploy.",
+  "hard_constraints_used": {
+    "pf_min": 1.1,
+    "max_drawdown_pct_max": 3.0,
+    "tail_worsening_count_guard": 0,
+    "economic_metrics_valid_ratio": 1.0,
+    "monthly_profit_norm_pct_range": [
+      2.0,
+      2.5
+    ],
+    "require_both_windows": true
+  }
+}
