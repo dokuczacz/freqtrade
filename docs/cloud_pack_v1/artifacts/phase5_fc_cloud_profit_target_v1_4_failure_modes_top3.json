@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-02-26T17:58:50.405000+00:00",
+  "stage": "CLOUD_PROFIT_TARGET_V1_4",
+  "fail_state": "BLOCKED_NO_RUNTIME_EXECUTION",
+  "targeted_windows": ["LW6M", "LW12M"],
+  "failure_modes_top3": {
+    "LW6M": [
+      {
+        "variant": "ALL",
+        "severity_score": 999.0,
+        "reason": "BLOCKED_NO_RUNTIME_EXECUTION",
+        "details": "No backtest zip-primary outputs available. All 8 runs are non-auditable. Freqtrade runtime not installed in CI environment."
+      }
+    ],
+    "LW12M": [
+      {
+        "variant": "ALL",
+        "severity_score": 999.0,
+        "reason": "BLOCKED_NO_RUNTIME_EXECUTION",
+        "details": "No backtest zip-primary outputs available. All 8 runs are non-auditable. Freqtrade runtime not installed in CI environment."
+      }
+    ]
+  }
+}

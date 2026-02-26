@@ -1,0 +1,1 @@
+window_id,variant,economic_metrics_valid,profit_total_pct,ctrl_profit_total_pct,delta_profit_vs_ctrl,monthly_profit_norm_pct,pf,ctrl_pf,delta_pf_vs_ctrl,max_drawdown_pct,tail,ctrl_tail,delta_tail_vs_ctrl,tail_guard_ok,monthly_in_range,pf_ok,drawdown_ok,all_constraints_pass,trades

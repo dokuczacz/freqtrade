@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-02-26T17:58:50.405000+00:00",
+  "stage": "CLOUD_PROFIT_TARGET_V1_4",
+  "status": "FAIL_CLEAR",
+  "decision": "FAIL_CLEAR",
+  "fail_state": "BLOCKED_NO_RUNTIME_EXECUTION",
+  "profit_target_range_pct": [2.0, 2.5],
+  "gate": {
+    "status": "FAIL",
+    "rule": "monthly_profit_norm_pct in [2.0, 2.5] AND pf>=1.10 AND max_drawdown_pct<=3.0 AND tail_guard_ok on BOTH windows",
+    "economic_valid_ratio": 0.0,
+    "required_economic_valid_ratio": 1.0,
+    "n_passing_non_control_variants": 0,
+    "required_passing_non_control": 2,
+    "passing_variants": []
+  },
+  "runs_total": 8,
+  "runs_success": 0,
+  "auditable_runs_count": 0,
+  "non_auditable_runs": [
+    {"run": "FC-CLOUD-PROFIT-V1_4-LW6M-CTRL_A", "reason": "BLOCKED_NO_RUNTIME_EXECUTION"},
+    {"run": "FC-CLOUD-PROFIT-V1_4-LW6M-VARIANT_A", "reason": "BLOCKED_NO_RUNTIME_EXECUTION"},
+    {"run": "FC-CLOUD-PROFIT-V1_4-LW6M-VARIANT_B", "reason": "BLOCKED_NO_RUNTIME_EXECUTION"},
+    {"run": "FC-CLOUD-PROFIT-V1_4-LW6M-VARIANT_C", "reason": "BLOCKED_NO_RUNTIME_EXECUTION"},
+    {"run": "FC-CLOUD-PROFIT-V1_4-LW12M-CTRL_A", "reason": "BLOCKED_NO_RUNTIME_EXECUTION"},
+    {"run": "FC-CLOUD-PROFIT-V1_4-LW12M-VARIANT_A", "reason": "BLOCKED_NO_RUNTIME_EXECUTION"},
+    {"run": "FC-CLOUD-PROFIT-V1_4-LW12M-VARIANT_B", "reason": "BLOCKED_NO_RUNTIME_EXECUTION"},
+    {"run": "FC-CLOUD-PROFIT-V1_4-LW12M-VARIANT_C", "reason": "BLOCKED_NO_RUNTIME_EXECUTION"}
+  ],
+  "metrics_source": "zip_primary_only",
+  "expected_comparisons": 6,
+  "comparisons_total": 0,
+  "failure_modes_top3": {
+    "LW6M": [],
+    "LW12M": []
+  }
+}

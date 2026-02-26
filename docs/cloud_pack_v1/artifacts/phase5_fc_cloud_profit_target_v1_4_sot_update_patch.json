@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-02-26T17:58:50.405000+00:00",
+  "stage": "CLOUD_PROFIT_TARGET_V1_4",
+  "fail_state": "BLOCKED_NO_RUNTIME_EXECUTION",
+  "instruction": "SOT patch cannot be applied until a PASS_CLEAR run with all auditable zip-primary outputs is achieved. Once backtests complete successfully, run analyze_phase5_fc_cloud_profit_target_v1_4.py to regenerate artifacts and then add the items below to docs/cloud_pack_v1/index.json.",
+  "items_to_add": [
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_manifest.json",
+      "source_path": "user_data/phase5_fc_cloud_profit_target_v1_4_manifest.json",
+      "stage": "v1_4",
+      "kind": "manifest"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_execution_results.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_execution_results.json",
+      "stage": "v1_4",
+      "kind": "execution"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_summary.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_summary.json",
+      "stage": "v1_4",
+      "kind": "summary"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_decision_summary.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_decision_summary.json",
+      "stage": "v1_4",
+      "kind": "decision_summary"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_table.csv",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_table.csv",
+      "stage": "v1_4",
+      "kind": "table"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_failure_modes_top3.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_failure_modes_top3.json",
+      "stage": "v1_4",
+      "kind": "failure_modes"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_shadow_ml_summary.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_shadow_ml_summary.json",
+      "stage": "v1_4",
+      "kind": "shadow"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_validation_report.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_validation_report.json",
+      "stage": "v1_4",
+      "kind": "validation"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_sot_update_patch.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_sot_update_patch.json",
+      "stage": "v1_4",
+      "kind": "sot_patch"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/strategies/BTCFuturesCalmLS.py",
+      "source_path": "user_data/strategies/BTCFuturesCalmLS.py",
+      "stage": "v1_4",
+      "kind": "strategy"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/scripts/stake_guard_tools.py",
+      "source_path": "user_data/scripts/stake_guard_tools.py",
+      "stage": "v1_4",
+      "kind": "script"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/scripts/generate_phase5_fc_cloud_profit_target_v1_4.py",
+      "source_path": "user_data/scripts/generate_phase5_fc_cloud_profit_target_v1_4.py",
+      "stage": "v1_4",
+      "kind": "script"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/scripts/analyze_phase5_fc_cloud_profit_target_v1_4.py",
+      "source_path": "user_data/scripts/analyze_phase5_fc_cloud_profit_target_v1_4.py",
+      "stage": "v1_4",
+      "kind": "script"
+    }
+  ]
+}

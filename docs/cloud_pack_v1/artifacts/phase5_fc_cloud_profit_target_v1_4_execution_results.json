@@ -1,0 +1,213 @@
+{
+  "generated_at": "2026-02-26T17:58:50.405000+00:00",
+  "stage": "CLOUD_PROFIT_TARGET_V1_4",
+  "fail_state": "BLOCKED_NO_RUNTIME_EXECUTION",
+  "runs_total": 8,
+  "runs_success": 0,
+  "auditable_runs_count": 0,
+  "metrics_source": "zip_primary_only",
+  "non_auditable_runs": [
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW6M-CTRL_A",
+      "reason": "BLOCKED_NO_RUNTIME_EXECUTION",
+      "detail": "Freqtrade runtime not available. No backtest zip-primary output."
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW6M-VARIANT_A",
+      "reason": "BLOCKED_NO_RUNTIME_EXECUTION",
+      "detail": "Freqtrade runtime not available. No backtest zip-primary output."
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW6M-VARIANT_B",
+      "reason": "BLOCKED_NO_RUNTIME_EXECUTION",
+      "detail": "Freqtrade runtime not available. No backtest zip-primary output."
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW6M-VARIANT_C",
+      "reason": "BLOCKED_NO_RUNTIME_EXECUTION",
+      "detail": "Freqtrade runtime not available. No backtest zip-primary output."
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW12M-CTRL_A",
+      "reason": "BLOCKED_NO_RUNTIME_EXECUTION",
+      "detail": "Freqtrade runtime not available. No backtest zip-primary output."
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW12M-VARIANT_A",
+      "reason": "BLOCKED_NO_RUNTIME_EXECUTION",
+      "detail": "Freqtrade runtime not available. No backtest zip-primary output."
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW12M-VARIANT_B",
+      "reason": "BLOCKED_NO_RUNTIME_EXECUTION",
+      "detail": "Freqtrade runtime not available. No backtest zip-primary output."
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW12M-VARIANT_C",
+      "reason": "BLOCKED_NO_RUNTIME_EXECUTION",
+      "detail": "Freqtrade runtime not available. No backtest zip-primary output."
+    }
+  ],
+  "per_run": [
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW6M-CTRL_A",
+      "strategy": "BTCFuturesCalmLS",
+      "window_id": "LW6M",
+      "variant": "CTRL_A",
+      "is_control": true,
+      "execution_proof": {
+        "command": null,
+        "exit_code": null,
+        "started_at_utc": null,
+        "finished_at_utc": null,
+        "runtime_seconds": null,
+        "zip_path": null,
+        "zip_sha256": null,
+        "parsed_json_path": null,
+        "raw_metrics": null
+      },
+      "auditable": false,
+      "audit_fail_reason": "BLOCKED_NO_RUNTIME_EXECUTION"
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW6M-VARIANT_A",
+      "strategy": "BTCFuturesCalmLS",
+      "window_id": "LW6M",
+      "variant": "VARIANT_A",
+      "is_control": false,
+      "execution_proof": {
+        "command": null,
+        "exit_code": null,
+        "started_at_utc": null,
+        "finished_at_utc": null,
+        "runtime_seconds": null,
+        "zip_path": null,
+        "zip_sha256": null,
+        "parsed_json_path": null,
+        "raw_metrics": null
+      },
+      "auditable": false,
+      "audit_fail_reason": "BLOCKED_NO_RUNTIME_EXECUTION"
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW6M-VARIANT_B",
+      "strategy": "BTCFuturesCalmLS",
+      "window_id": "LW6M",
+      "variant": "VARIANT_B",
+      "is_control": false,
+      "execution_proof": {
+        "command": null,
+        "exit_code": null,
+        "started_at_utc": null,
+        "finished_at_utc": null,
+        "runtime_seconds": null,
+        "zip_path": null,
+        "zip_sha256": null,
+        "parsed_json_path": null,
+        "raw_metrics": null
+      },
+      "auditable": false,
+      "audit_fail_reason": "BLOCKED_NO_RUNTIME_EXECUTION"
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW6M-VARIANT_C",
+      "strategy": "BTCFuturesCalmLS",
+      "window_id": "LW6M",
+      "variant": "VARIANT_C",
+      "is_control": false,
+      "execution_proof": {
+        "command": null,
+        "exit_code": null,
+        "started_at_utc": null,
+        "finished_at_utc": null,
+        "runtime_seconds": null,
+        "zip_path": null,
+        "zip_sha256": null,
+        "parsed_json_path": null,
+        "raw_metrics": null
+      },
+      "auditable": false,
+      "audit_fail_reason": "BLOCKED_NO_RUNTIME_EXECUTION"
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW12M-CTRL_A",
+      "strategy": "BTCFuturesCalmLS",
+      "window_id": "LW12M",
+      "variant": "CTRL_A",
+      "is_control": true,
+      "execution_proof": {
+        "command": null,
+        "exit_code": null,
+        "started_at_utc": null,
+        "finished_at_utc": null,
+        "runtime_seconds": null,
+        "zip_path": null,
+        "zip_sha256": null,
+        "parsed_json_path": null,
+        "raw_metrics": null
+      },
+      "auditable": false,
+      "audit_fail_reason": "BLOCKED_NO_RUNTIME_EXECUTION"
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW12M-VARIANT_A",
+      "strategy": "BTCFuturesCalmLS",
+      "window_id": "LW12M",
+      "variant": "VARIANT_A",
+      "is_control": false,
+      "execution_proof": {
+        "command": null,
+        "exit_code": null,
+        "started_at_utc": null,
+        "finished_at_utc": null,
+        "runtime_seconds": null,
+        "zip_path": null,
+        "zip_sha256": null,
+        "parsed_json_path": null,
+        "raw_metrics": null
+      },
+      "auditable": false,
+      "audit_fail_reason": "BLOCKED_NO_RUNTIME_EXECUTION"
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW12M-VARIANT_B",
+      "strategy": "BTCFuturesCalmLS",
+      "window_id": "LW12M",
+      "variant": "VARIANT_B",
+      "is_control": false,
+      "execution_proof": {
+        "command": null,
+        "exit_code": null,
+        "started_at_utc": null,
+        "finished_at_utc": null,
+        "runtime_seconds": null,
+        "zip_path": null,
+        "zip_sha256": null,
+        "parsed_json_path": null,
+        "raw_metrics": null
+      },
+      "auditable": false,
+      "audit_fail_reason": "BLOCKED_NO_RUNTIME_EXECUTION"
+    },
+    {
+      "run": "FC-CLOUD-PROFIT-V1_4-LW12M-VARIANT_C",
+      "strategy": "BTCFuturesCalmLS",
+      "window_id": "LW12M",
+      "variant": "VARIANT_C",
+      "is_control": false,
+      "execution_proof": {
+        "command": null,
+        "exit_code": null,
+        "started_at_utc": null,
+        "finished_at_utc": null,
+        "runtime_seconds": null,
+        "zip_path": null,
+        "zip_sha256": null,
+        "parsed_json_path": null,
+        "raw_metrics": null
+      },
+      "auditable": false,
+      "audit_fail_reason": "BLOCKED_NO_RUNTIME_EXECUTION"
+    }
+  ]
+}

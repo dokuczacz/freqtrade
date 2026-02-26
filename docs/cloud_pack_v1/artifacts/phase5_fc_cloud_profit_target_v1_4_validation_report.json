@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-02-26T17:58:50.405000+00:00",
+  "stage": "CLOUD_PROFIT_TARGET_V1_4",
+  "status": "FAIL_CLEAR",
+  "fail_state": "BLOCKED_NO_RUNTIME_EXECUTION",
+  "metrics_source_policy": "zip_primary_only",
+  "preflight_checks": {
+    "index_json_parsed": {
+      "status": "PASS",
+      "detail": "docs/cloud_pack_v1/index.json parsed successfully"
+    },
+    "sha256_verified": {
+      "status": "PASS",
+      "detail": "All items[] sha256 hashes verified against pack_path files"
+    },
+    "strategy_file_exists": {
+      "status": "PASS",
+      "detail": "docs/cloud_pack_v1/strategies/BTCFuturesCalmLS.py exists"
+    },
+    "stake_guard_tools_exists": {
+      "status": "PASS",
+      "detail": "docs/cloud_pack_v1/scripts/stake_guard_tools.py exists"
+    },
+    "freqtrade_available": {
+      "status": "FAIL",
+      "detail": "freqtrade --version returned error: Freqtrade not installed in this environment. Install with: pip install freqtrade",
+      "required_action": "pip install freqtrade && freqtrade --version"
+    },
+    "historical_data_BTC_USDT_15m": {
+      "status": "FAIL",
+      "detail": "Cannot verify data without Freqtrade runtime. Required: BTC/USDT:USDT futures 15m data.",
+      "required_action": "freqtrade download-data --exchange binance --trading-mode futures --timeframes 15m --pairs BTC/USDT:USDT"
+    }
+  },
+  "preflight_failure_detail": "Freqtrade runtime not available in CI environment. Install Freqtrade and download BTC/USDT:USDT historical data before running backtests.",
+  "runs_total": 8,
+  "auditable_runs_count": 0,
+  "economic_valid_ratio": 0.0,
+  "governance": {
+    "no_synthetic_kpi": true,
+    "no_claim_of_pass_without_zip_evidence": true,
+    "baseline_ctrl_a_untouched": true,
+    "shadow_ml_telemetry_only": true,
+    "metrics_source": "zip_primary_only"
+  }
+}

@@ -194,6 +194,110 @@
       "size_bytes": 213368,
       "stage": "sot",
       "kind": "sot"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/strategies/BTCFuturesCalmLS.py",
+      "source_path": "user_data/strategies/BTCFuturesCalmLS.py",
+      "sha256": "87925b3fc6f886cf9974d0c8a9421737e58fb2dcca96a11f211a2919140b52fa",
+      "size_bytes": 10982,
+      "stage": "v1_4",
+      "kind": "strategy"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/scripts/stake_guard_tools.py",
+      "source_path": "user_data/scripts/stake_guard_tools.py",
+      "sha256": "7652cd32ef2fc85cb3c60e0c5e0dbd91875ee4192a97ff2b56cec8cf58fcfc45",
+      "size_bytes": 3126,
+      "stage": "v1_4",
+      "kind": "script"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/scripts/generate_phase5_fc_cloud_profit_target_v1_4.py",
+      "source_path": "user_data/scripts/generate_phase5_fc_cloud_profit_target_v1_4.py",
+      "sha256": "a2c7534be5891e6a04887614901f57b89f9030341c161cbca0a26022257b2863",
+      "size_bytes": 7837,
+      "stage": "v1_4",
+      "kind": "script"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/scripts/analyze_phase5_fc_cloud_profit_target_v1_4.py",
+      "source_path": "user_data/scripts/analyze_phase5_fc_cloud_profit_target_v1_4.py",
+      "sha256": "b283494defede63bda322bb59310618ebd093ea1c57501d12cc22fb75bc6f2b5",
+      "size_bytes": 27136,
+      "stage": "v1_4",
+      "kind": "script"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_manifest.json",
+      "source_path": "user_data/phase5_fc_cloud_profit_target_v1_4_manifest.json",
+      "sha256": "e053e876c9ed510956dee9dd8c1fcfc0d827a0775d9b3fe1341e38ea8e0ec608",
+      "size_bytes": 11751,
+      "stage": "v1_4",
+      "kind": "manifest"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_execution_results.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_execution_results.json",
+      "sha256": "e23ff8d5202399fdd1c204ef98de266a5ffa260a15780db5975a2a562f1761d1",
+      "size_bytes": 6446,
+      "stage": "v1_4",
+      "kind": "execution"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_summary.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_summary.json",
+      "sha256": "926a82822754650af06c423abb4fcf935f76b65aebe9476f1e8814db02ebe9dd",
+      "size_bytes": 1593,
+      "stage": "v1_4",
+      "kind": "summary"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_decision_summary.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_decision_summary.json",
+      "sha256": "61b9fbbc2159a0eeb15aa874d408ee5d965fe5b19c457761cf2b7220a91be2fb",
+      "size_bytes": 2699,
+      "stage": "v1_4",
+      "kind": "decision_summary"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_table.csv",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_table.csv",
+      "sha256": "0c80aa97945052c7724eef076eabde2902977ca89f1cf5218b357327d158647f",
+      "size_bytes": 281,
+      "stage": "v1_4",
+      "kind": "table"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_failure_modes_top3.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_failure_modes_top3.json",
+      "sha256": "28fbb56b39fcbd56a46956c42da1573bcd21dcff44b76e4898c0737927c6515d",
+      "size_bytes": 798,
+      "stage": "v1_4",
+      "kind": "failure_modes"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_shadow_ml_summary.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_shadow_ml_summary.json",
+      "sha256": "46cb6aec8a05b635d2f5edb2f4c388749d6f782f9496edff803e572a88f9a138",
+      "size_bytes": 2180,
+      "stage": "v1_4",
+      "kind": "shadow"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_validation_report.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_validation_report.json",
+      "sha256": "6900379004912bb407dba3fafb30019a0eaeeab9489c32f63ee79164b883a00a",
+      "size_bytes": 1826,
+      "stage": "v1_4",
+      "kind": "validation"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_sot_update_patch.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_4_sot_update_patch.json",
+      "sha256": "09eb811337528c0b6f6f123b3bd01d5cec457e3b0ef72eb0d764cfd0fb734fd5",
+      "size_bytes": 3781,
+      "stage": "v1_4",
+      "kind": "sot_patch"
     }
   ]
 }

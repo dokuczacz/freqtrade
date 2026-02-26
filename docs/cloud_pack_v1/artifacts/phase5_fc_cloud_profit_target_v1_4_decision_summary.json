@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-02-26T17:58:50.405000+00:00",
+  "stage": "CLOUD_PROFIT_TARGET_V1_4",
+  "decision": "FAIL_CLEAR",
+  "fail_state": "BLOCKED_NO_RUNTIME_EXECUTION",
+  "variants_passing_both_windows": [],
+  "n_passing_non_control": 0,
+  "required_passing_non_control": 2,
+  "top3_by_primary_kpi": [],
+  "recommended_next_step": "Provide a runtime environment with Freqtrade installed and BTC/USDT:USDT 15m historical data, then rerun generate_phase5_fc_cloud_profit_target_v1_4.py and execute backtests for all 8 runs. Freqtrade install: pip install freqtrade. Data download: freqtrade download-data --exchange binance --trading-mode futures --timeframes 15m --pairs BTC/USDT:USDT.",
+  "blocking_constraints": ["BLOCKED_NO_RUNTIME_EXECUTION"],
+  "hard_constraints_checklist": {
+    "pf_min_1_10": "BLOCKED",
+    "max_drawdown_pct_leq_3_0": "BLOCKED",
+    "tail_worsening_count_guard_eq_0": "BLOCKED",
+    "economic_metrics_valid_ratio_eq_1": "BLOCKED",
+    "pass_on_both_windows_LW6M_LW12M": "BLOCKED",
+    "min_2_non_control_variants_pass": "BLOCKED"
+  },
+  "progress_table": [
+    {
+      "step": "Preflight: parse index.json",
+      "status": "DONE",
+      "source": "docs/cloud_pack_v1/index.json"
+    },
+    {
+      "step": "Preflight: SHA256 verify all items",
+      "status": "DONE",
+      "source": "docs/cloud_pack_v1/index.json"
+    },
+    {
+      "step": "Preflight: strategy file exists",
+      "status": "DONE",
+      "source": "docs/cloud_pack_v1/strategies/BTCFuturesCalmLS.py"
+    },
+    {
+      "step": "Preflight: stake_guard_tools exists",
+      "status": "DONE",
+      "source": "docs/cloud_pack_v1/scripts/stake_guard_tools.py"
+    },
+    {
+      "step": "Preflight: Freqtrade availability",
+      "status": "FAIL",
+      "source": "freqtrade --version",
+      "detail": "Freqtrade not installed in CI environment"
+    },
+    {
+      "step": "Preflight: BTC/USDT:USDT 15m historical data",
+      "status": "FAIL",
+      "source": "freqtrade download-data",
+      "detail": "Cannot download without Freqtrade runtime"
+    },
+    {
+      "step": "Generate run manifest (8 runs)",
+      "status": "DONE",
+      "source": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_4_manifest.json"
+    },
+    {
+      "step": "Execute backtests (8 runs)",
+      "status": "BLOCKED",
+      "source": "N/A",
+      "detail": "BLOCKED_NO_RUNTIME_EXECUTION"
+    },
+    {
+      "step": "Extract metrics from zip-primary",
+      "status": "BLOCKED",
+      "source": "N/A",
+      "detail": "No zip outputs available"
+    },
+    {
+      "step": "Apply hard constraints evaluation",
+      "status": "BLOCKED",
+      "source": "N/A",
+      "detail": "No metrics available"
+    }
+  ]
+}
