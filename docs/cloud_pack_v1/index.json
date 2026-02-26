@@ -1,7 +1,7 @@
 {
   "pack_version": "cloud_pack_v1",
-  "created_at_utc": "2026-02-26T16:16:31.720783+00:00",
-  "effective_state": "tail2x3_v3",
+  "created_at_utc": "2026-02-26T17:26:02.805578+00:00",
+  "effective_state": "cloud_profit_target_v1_2",
   "items": [
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v5_execution_results.json",
@@ -194,6 +194,86 @@
       "size_bytes": 213368,
       "stage": "sot",
       "kind": "sot"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_2_manifest.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_2_manifest.json",
+      "sha256": "89a9b2008f3e4b1ba3532bcd2f5793ca6f309c84857be9a7d83caa2f7b0d5209",
+      "size_bytes": 14577,
+      "stage": "v1_2",
+      "kind": "manifest"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_2_execution_results.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_2_execution_results.json",
+      "sha256": "09fb076cef1fce9ce31ced45415391ee7abb3ef8d80865a95d4cd17d5cfba5b3",
+      "size_bytes": 14689,
+      "stage": "v1_2",
+      "kind": "execution"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_2_summary.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_2_summary.json",
+      "sha256": "e30b197d3a0d26af9243c9c1f8cce19eabad90202b57c5d6dd1ccadc543030ed",
+      "size_bytes": 2392,
+      "stage": "v1_2",
+      "kind": "summary"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_2_decision_summary.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_2_decision_summary.json",
+      "sha256": "e9b9df914a8f2f9e60a2fa2de95072caba288512bbcc565a4bb2b8107b2ec77c",
+      "size_bytes": 875,
+      "stage": "v1_2",
+      "kind": "decision_summary"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_2_table.csv",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_2_table.csv",
+      "sha256": "ae3773f8b7f06497c407dc587e358c999417d17a15268b0bad24b5cbaa3a64f8",
+      "size_bytes": 1638,
+      "stage": "v1_2",
+      "kind": "table"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_2_failure_modes_top3.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_2_failure_modes_top3.json",
+      "sha256": "7eb6ce35fc87fbf6b084ba4530a20362f9f6695a69a97840a31a52fbee3baa35",
+      "size_bytes": 2633,
+      "stage": "v1_2",
+      "kind": "failure_modes"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_2_shadow_ml_summary.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_2_shadow_ml_summary.json",
+      "sha256": "42f847163c4a1d5cfc8cb4be2bc18fea857b64a4e5c66d191c5514ee7995fd56",
+      "size_bytes": 3119,
+      "stage": "v1_2",
+      "kind": "shadow"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_2_validation_report.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_2_validation_report.json",
+      "sha256": "62b783d907c0ba4e330eac967e2fa8e319adc8a08b64584c5e182abc7a070596",
+      "size_bytes": 11039,
+      "stage": "v1_2",
+      "kind": "validation"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/scripts/generate_phase5_fc_cloud_profit_target_v1_2.py",
+      "source_path": "user_data/scripts/generate_phase5_fc_cloud_profit_target_v1_2.py",
+      "sha256": "3089c906aa66e29bc908481cb2b829230648ddf58503f10137be1a244e70d88b",
+      "size_bytes": 36518,
+      "stage": "v1_2",
+      "kind": "script"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_2_sot_update_patch.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_2_sot_update_patch.json",
+      "sha256": "ddcf554801a123ecae3b9b99dc4c7d48483b1ae199437a76913d97283730a220",
+      "size_bytes": 3804,
+      "stage": "v1_2",
+      "kind": "sot_patch"
     }
   ]
 }

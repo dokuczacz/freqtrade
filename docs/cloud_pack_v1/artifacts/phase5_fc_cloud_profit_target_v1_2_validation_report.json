@@ -1,0 +1,274 @@
+{
+  "generated_at": "2026-02-26T17:26:02.805578+00:00",
+  "stage": "FC_CLOUD_PT_V1_2",
+  "preflight": {
+    "index_sha256_verified": false,
+    "runtime_deps_present": true,
+    "status": "PASS",
+    "items": [
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v5_execution_results.json",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "710a32aa3a6b4f5ec767b36552e420fbd600c84b491f16449aa9ee013aa6474a",
+        "actual_sha256": "221794bb344c80f9d30937150fc567ed132f7d61cf6addfb43fa127aa7caa3ee"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v5_summary.json",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "6d27ec970e75d958be864191f9214eed80fb7f4083c28ec88149588e8c37c424",
+        "actual_sha256": "75724ceb60b85b632f5909d00b7a12169f6c71b69c4b84318bd7563395d07abe"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v5_table.csv",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "1fccc7b9c611fd2df290fe85df3ed50d81ae4b927e62f5990593fdc01d453b52",
+        "actual_sha256": "7304379c4cb0358751ad2ce3a4bceb85513f79bde4343da87bde741a33002f74"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v5_failure_modes_top3.json",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "4a4bf0c93777418567b232fe2683980a9a6f6a3e81f84def92b5ce9fae98754a",
+        "actual_sha256": "65504fa329e040e8e77e036641012532d3f14bff81ef9e1f994e01043093ba0b"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v5_shadow_ml_summary.json",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "72613c60689ab63abc1acdf5cabb53429c71080040f6d19bd09895a5fbb6a60d",
+        "actual_sha256": "1b779ba288fe1bb6993b51941d9c27c28ae836e3b705ef8282dd65243ffa46cf"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v6_execution_results.json",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "c86d60407b9bf1689e115aae9c6676576b040ffa85f0ff18f8d090f1f46abac2",
+        "actual_sha256": "b3438a1813af15ec87212f57b04c5e2bb41e84de6811127e062aa02081319fdb"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v6_summary.json",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "aa07c1727ce3d95e1dbce0b2cf8918c40142d3f37f5df7c11baebc0ec7ca927a",
+        "actual_sha256": "5d3d4b9decdfe6186ec01e767f6eb9bf6a6956399276f35086ccca6861620981"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v6_table.csv",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "04a86659c5605ba8c42a58119fba3b962f54d10a3f6dd30bd2e53ae2f1091642",
+        "actual_sha256": "3dd930bd50e1e69c09ff7b58fe312dc7098dc7dff9e27ff446b1a06c48e031c0"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v6_failure_modes_top3.json",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "31c4f76f4295bfea40e9f385d81946a4d5f08f0abfea43ea756e6fff22b44539",
+        "actual_sha256": "ad6b4059ea0762382876aca24d330225c59a8dcbb5762d2effe983417db565b4"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v6_shadow_ml_summary.json",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "1cbdf113539771dc37064a9890cd8992c7ed2295492f06ffeeb35ab160887cff",
+        "actual_sha256": "955894499f9e1586ae142dfac5d3e50258bd20a1df0a51ebaa959bbdb664fc2a"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v7_execution_results.json",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "ddfdb957cf1e806d8db901004b91fefa0ca49461d29be409fe0a6fc80086ad16",
+        "actual_sha256": "40c66fb5e3fb8ce265bf1fe59032e75b7bd5c7c31d6e6b22b62a218bc8ffe857"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v7_summary.json",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "01811d32a4d9cb81cc9e5a86d8e00a44b10a881c8c8eac84542b0395d2cbf772",
+        "actual_sha256": "d6dd75f8200ae3d1b0b8fd448ad3dc4800ff7ec062d2b410eb3236f001053976"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v7_table.csv",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "3abec197b2eacce82e3d14db10ac651cd253f76d60be138c5a85224db083653b",
+        "actual_sha256": "1bf31d956cfd34c124374925cb36378babe5fe9bbaabf906ebc7096d8e83c3a3"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v7_failure_modes_top3.json",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "ac8fc6296a103c50a97d3569e2b917347fe8eb7983eb53556df49944d7ba2c0e",
+        "actual_sha256": "df31aca9699934f123112a38a93e74221e2e6450667f37c359a8945134ee4793"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v7_shadow_ml_summary.json",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "4843205bd92a7ec39dfe5f44c954b225d334c7c5efb06e33bc23dc9f4bc7b9cc",
+        "actual_sha256": "0297d016e7075c403e5c42332e0f97acd84a1f524a422ee43090218645db778d"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/scripts/generate_phase5_fc_anchor_tail2x3_v5.py",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "641c8f9bddcbd67251a0b54c822535a8cd8f3c435b7094cd688988a85d6aaeca",
+        "actual_sha256": "4fff72ded2382c9ade3ad0da72bc2138805f68b8c1d93bb11d963f7c05fb5984"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/scripts/analyze_phase5_fc_anchor_tail2x3_v5.py",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "72a13b0e3021810823d8c5dc611bc5164db9a02ed6a8830dfcfe03da07f4575a",
+        "actual_sha256": "1ff941580fa7dcf245e232fc633b1cdfb2f7eafb8cb2bf4eef429226f18cf0a1"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/scripts/analyze_phase5_fc_shadow_ml_telemetry_v5.py",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "4f83da8bcf1915edca4bf46e7e4fae9523b0c1b35e35de3e1e34e964de2b3b7b",
+        "actual_sha256": "a1b0f241bca06a9066e9568c2772d008fdb5208ece223ef4a6346bdc38df235c"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/scripts/generate_phase5_fc_anchor_tail2x3_v6.py",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "50fb557b45430cb4fdc14b2deb45fcb4db3951bf2e69db1c9fa30e804c50762e",
+        "actual_sha256": "c291f0bae59c5884b58f99889a5a622b3f3cb30e75d000f21621b3e843b13c37"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/scripts/analyze_phase5_fc_anchor_tail2x3_v6.py",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "cbe665d808c30a1c8711b8eae113c0b52444046d5f56ae653d755cfff678b11b",
+        "actual_sha256": "add0af2923dac2146084db6c86d2181497461df949f225706aeaff9d07bd2a35"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/scripts/analyze_phase5_fc_shadow_ml_telemetry_v6.py",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "c59c82a020332883ab5fff9e9ba973158d97783b0cd5529edb273be5de4114bb",
+        "actual_sha256": "3453debbe9053aae4bac6774fe68126e4a4916a8dd0418b9caec4bcb1978f248"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/scripts/generate_phase5_fc_anchor_tail2x3_v7.py",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "e3d0e16efa385c734b5ffa0811d5c6fc8f1e835999f1cc0ee27de311302e985f",
+        "actual_sha256": "9270c7d8c8e82424f225e72d254f4fc80cd393b9254ae713196e09f00eb6aee8"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/scripts/analyze_phase5_fc_anchor_tail2x3_v7.py",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "41c72a05fac976e7874c1efcc4616afa6b3fb611cda61e17acfa8e36334b2951",
+        "actual_sha256": "2c56da188dc92e459f362c9b467b63d8b957431195a91b219409108184643e76"
+      },
+      {
+        "pack_path": "docs/cloud_pack_v1/sot/poziom2_handoff_status.json",
+        "exists": true,
+        "sha256_match": false,
+        "expected_sha256": "b379e49b6783482324fb0c988efcb3d2f81b4935820c6754ecaf923668811522",
+        "actual_sha256": "85b1bd8cd27a3251455e239b12a90268fa83e686baf4076e5a8fac62927e5832"
+      }
+    ],
+    "runtime_deps": [
+      {
+        "path": "docs/cloud_pack_v1/strategies/BTCFuturesCalmLS.py",
+        "exists": true
+      },
+      {
+        "path": "docs/cloud_pack_v1/scripts/stake_guard_tools.py",
+        "exists": true
+      }
+    ]
+  },
+  "traceability_contract": {
+    "manifest_overrides_populated": true,
+    "manifest_normalized_keys_present": true,
+    "execution_applied_overrides_populated": true,
+    "table_param_columns_present": true,
+    "missing_fields": []
+  },
+  "hard_constraints": [
+    {
+      "window": "LW6M",
+      "variant": "CTRL",
+      "pf": 1.08,
+      "pf_ok": true,
+      "max_drawdown_pct": 2.78,
+      "drawdown_ok": true,
+      "economic_metrics_valid": true
+    },
+    {
+      "window": "LW6M",
+      "variant": "PROFIT_TUNE_A",
+      "pf": 1.15,
+      "pf_ok": true,
+      "max_drawdown_pct": 2.52,
+      "drawdown_ok": true,
+      "economic_metrics_valid": true
+    },
+    {
+      "window": "LW6M",
+      "variant": "PROFIT_TUNE_B",
+      "pf": 1.22,
+      "pf_ok": true,
+      "max_drawdown_pct": 2.31,
+      "drawdown_ok": true,
+      "economic_metrics_valid": true
+    },
+    {
+      "window": "LW6M",
+      "variant": "PROFIT_TUNE_C",
+      "pf": 1.19,
+      "pf_ok": true,
+      "max_drawdown_pct": 2.44,
+      "drawdown_ok": true,
+      "economic_metrics_valid": true
+    },
+    {
+      "window": "LW12M",
+      "variant": "CTRL",
+      "pf": 1.09,
+      "pf_ok": true,
+      "max_drawdown_pct": 2.71,
+      "drawdown_ok": true,
+      "economic_metrics_valid": true
+    },
+    {
+      "window": "LW12M",
+      "variant": "PROFIT_TUNE_A",
+      "pf": 1.17,
+      "pf_ok": true,
+      "max_drawdown_pct": 2.43,
+      "drawdown_ok": true,
+      "economic_metrics_valid": true
+    },
+    {
+      "window": "LW12M",
+      "variant": "PROFIT_TUNE_B",
+      "pf": 1.24,
+      "pf_ok": true,
+      "max_drawdown_pct": 2.19,
+      "drawdown_ok": true,
+      "economic_metrics_valid": true
+    },
+    {
+      "window": "LW12M",
+      "variant": "PROFIT_TUNE_C",
+      "pf": 1.21,
+      "pf_ok": true,
+      "max_drawdown_pct": 2.36,
+      "drawdown_ok": true,
+      "economic_metrics_valid": true
+    }
+  ],
+  "economic_metrics_valid_ratio": 1.0,
+  "tail_worsening_count_guard": 0,
+  "non_ctrl_variants_passing_both_windows": 3,
+  "overall_status": "PASS_CLEAR"
+}

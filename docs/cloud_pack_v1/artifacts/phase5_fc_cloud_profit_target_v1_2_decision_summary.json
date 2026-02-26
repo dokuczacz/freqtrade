@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-02-26T17:26:02.805578+00:00",
+  "stage": "FC_CLOUD_PT_V1_2",
+  "decision": "PASS_CLEAR",
+  "decision_rationale": "3 non-control variants passed both LW6M and LW12M windows with PF>=1.10 and max_drawdown_pct<=3.0. Traceability contract fully satisfied (overrides populated in all artifacts).",
+  "recommended_next_variant": "PROFIT_TUNE_B",
+  "recommended_next_variant_rationale": "PROFIT_TUNE_B shows highest delta_profit_vs_ctrl across both windows.",
+  "traceability_contract_satisfied": true,
+  "missing_traceability_fields": [],
+  "hard_constraints_all_pass": true,
+  "passing_non_ctrl_variants": [
+    "PROFIT_TUNE_A",
+    "PROFIT_TUNE_B",
+    "PROFIT_TUNE_C"
+  ],
+  "windows_evaluated": [
+    "LW6M",
+    "LW12M"
+  ],
+  "governance": {
+    "shadow_ml_mode": "telemetry-only",
+    "baseline_ctrl_untouched": true,
+    "broad_sweep": false
+  }
+}

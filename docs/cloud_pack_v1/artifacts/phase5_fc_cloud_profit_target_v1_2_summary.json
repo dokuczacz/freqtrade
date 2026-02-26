@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-02-26T17:26:02.805578+00:00",
+  "stage": "FC_CLOUD_PT_V1_2",
+  "status": "PASS_CLEAR",
+  "passing_non_ctrl_variants": [
+    "PROFIT_TUNE_A",
+    "PROFIT_TUNE_B",
+    "PROFIT_TUNE_C"
+  ],
+  "passing_non_ctrl_count": 3,
+  "economic_metrics_valid_ratio": 1.0,
+  "hard_constraints": {
+    "pf_min": 1.1,
+    "max_drawdown_pct_max": 3.0,
+    "tail_worsening_count_guard": 0,
+    "economic_metrics_valid_ratio_required": 1.0
+  },
+  "gate": {
+    "status": "PASS",
+    "rule": "PF>=1.10 AND max_drawdown_pct<=3.0 AND economic_valid_ratio==1.0 in BOTH windows",
+    "economic_valid_ratio": 1.0,
+    "required_economic_valid_ratio": 1.0,
+    "non_ctrl_variants_passing_both_windows": 3,
+    "required_non_ctrl_variants_passing": 2
+  },
+  "primary_kpi_order": [
+    "delta_profit_vs_ctrl",
+    "delta_tail_vs_ctrl",
+    "delta_pf_vs_ctrl",
+    "activation_counts"
+  ],
+  "variants": [
+    {
+      "variant": "PROFIT_TUNE_A",
+      "windows_passing_both": true,
+      "windows_pass_count": 2,
+      "LW6M": {
+        "delta_profit_vs_ctrl": 1.76,
+        "delta_pf_vs_ctrl": 0.07,
+        "delta_tail_vs_ctrl": -0.00068,
+        "pf": 1.15,
+        "max_drawdown_pct": 2.52
+      },
+      "LW12M": {
+        "delta_profit_vs_ctrl": 3.76,
+        "delta_pf_vs_ctrl": 0.08,
+        "delta_tail_vs_ctrl": -0.000892,
+        "pf": 1.17,
+        "max_drawdown_pct": 2.43
+      }
+    },
+    {
+      "variant": "PROFIT_TUNE_B",
+      "windows_passing_both": true,
+      "windows_pass_count": 2,
+      "LW6M": {
+        "delta_profit_vs_ctrl": 2.71,
+        "delta_pf_vs_ctrl": 0.14,
+        "delta_tail_vs_ctrl": -0.001009,
+        "pf": 1.22,
+        "max_drawdown_pct": 2.31
+      },
+      "LW12M": {
+        "delta_profit_vs_ctrl": 5.34,
+        "delta_pf_vs_ctrl": 0.15,
+        "delta_tail_vs_ctrl": -0.001226,
+        "pf": 1.24,
+        "max_drawdown_pct": 2.19
+      }
+    },
+    {
+      "variant": "PROFIT_TUNE_C",
+      "windows_passing_both": true,
+      "windows_pass_count": 2,
+      "LW6M": {
+        "delta_profit_vs_ctrl": 2.39,
+        "delta_pf_vs_ctrl": 0.11,
+        "delta_tail_vs_ctrl": -0.000847,
+        "pf": 1.19,
+        "max_drawdown_pct": 2.44
+      },
+      "LW12M": {
+        "delta_profit_vs_ctrl": 4.65,
+        "delta_pf_vs_ctrl": 0.12,
+        "delta_tail_vs_ctrl": -0.001065,
+        "pf": 1.21,
+        "max_drawdown_pct": 2.36
+      }
+    }
+  ]
+}

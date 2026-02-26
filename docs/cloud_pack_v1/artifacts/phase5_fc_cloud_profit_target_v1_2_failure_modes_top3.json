@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-02-26T17:26:02.805578+00:00",
+  "stage": "FC_CLOUD_PT_V1_2",
+  "targeted_windows": [
+    "LW6M",
+    "LW12M"
+  ],
+  "failure_modes_top3": {
+    "LW6M": [
+      {
+        "variant": "PROFIT_TUNE_A",
+        "severity_score": 2.024,
+        "delta_profit_vs_ctrl": 1.76,
+        "delta_pf_vs_ctrl": 0.07,
+        "delta_tail_vs_ctrl": -0.00068,
+        "pf": 1.15,
+        "max_drawdown_pct": 2.52,
+        "economic_metrics_valid": true,
+        "passes_hard_constraints": true,
+        "reasons": [
+          "none_all_constraints_pass"
+        ]
+      },
+      {
+        "variant": "PROFIT_TUNE_C",
+        "severity_score": 2.8441,
+        "delta_profit_vs_ctrl": 2.39,
+        "delta_pf_vs_ctrl": 0.11,
+        "delta_tail_vs_ctrl": -0.000847,
+        "pf": 1.19,
+        "max_drawdown_pct": 2.44,
+        "economic_metrics_valid": true,
+        "passes_hard_constraints": true,
+        "reasons": [
+          "none_all_constraints_pass"
+        ]
+      },
+      {
+        "variant": "PROFIT_TUNE_B",
+        "severity_score": 3.3062,
+        "delta_profit_vs_ctrl": 2.71,
+        "delta_pf_vs_ctrl": 0.14,
+        "delta_tail_vs_ctrl": -0.001009,
+        "pf": 1.22,
+        "max_drawdown_pct": 2.31,
+        "economic_metrics_valid": true,
+        "passes_hard_constraints": true,
+        "reasons": [
+          "none_all_constraints_pass"
+        ]
+      }
+    ],
+    "LW12M": [
+      {
+        "variant": "PROFIT_TUNE_A",
+        "severity_score": 4.3992,
+        "delta_profit_vs_ctrl": 3.76,
+        "delta_pf_vs_ctrl": 0.08,
+        "delta_tail_vs_ctrl": -0.000892,
+        "pf": 1.17,
+        "max_drawdown_pct": 2.43,
+        "economic_metrics_valid": true,
+        "passes_hard_constraints": true,
+        "reasons": [
+          "none_all_constraints_pass"
+        ]
+      },
+      {
+        "variant": "PROFIT_TUNE_C",
+        "severity_score": 5.6265,
+        "delta_profit_vs_ctrl": 4.65,
+        "delta_pf_vs_ctrl": 0.12,
+        "delta_tail_vs_ctrl": -0.001065,
+        "pf": 1.21,
+        "max_drawdown_pct": 2.36,
+        "economic_metrics_valid": true,
+        "passes_hard_constraints": true,
+        "reasons": [
+          "none_all_constraints_pass"
+        ]
+      },
+      {
+        "variant": "PROFIT_TUNE_B",
+        "severity_score": 6.6216,
+        "delta_profit_vs_ctrl": 5.34,
+        "delta_pf_vs_ctrl": 0.15,
+        "delta_tail_vs_ctrl": -0.001226,
+        "pf": 1.24,
+        "max_drawdown_pct": 2.19,
+        "economic_metrics_valid": true,
+        "passes_hard_constraints": true,
+        "reasons": [
+          "none_all_constraints_pass"
+        ]
+      }
+    ]
+  }
+}
