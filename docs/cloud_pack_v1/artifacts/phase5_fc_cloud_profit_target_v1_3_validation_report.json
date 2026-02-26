@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-02-26T17:35:00+00:00",
+  "stage": "PROFIT_TARGET_V1_3",
+  "index_integrity_status": "PASS",
+  "runtime_deps_status": "PASS",
+  "synthetic_metric_scan_status": "PASS",
+  "metrics_source_audit_status": "FAIL_NO_BACKTEST_RUNS",
+  "traceability_status": "PASS",
+  "applied_overrides_status": "PASS",
+  "per_run_audit": [],
+  "non_auditable_runs": [],
+  "missing_traceability_fields": [],
+  "note": "Pre-flight checks pass. Runtime deps (BTCFuturesCalmLS.py, stake_guard_tools.py) present. No backtest runs executed yet. metrics_source_audit_status=FAIL_NO_BACKTEST_RUNS. Run generate script + backtests + analyze to reach PASS_CLEAR."
+}

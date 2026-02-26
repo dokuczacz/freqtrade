@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-02-26T17:35:00+00:00",
+  "stage": "PROFIT_TARGET_V1_3",
+  "target_windows": [
+    "LW6M",
+    "LW12M"
+  ],
+  "fail_state": "NON_AUDITABLE_METRICS_SOURCE",
+  "failure_modes_top3": {
+    "LW6M": [
+      {
+        "variant": "ALL",
+        "severity_score": 1000.0,
+        "reasons": [
+          "no_zip_primary_data"
+        ],
+        "passes_all_hard_constraints": false
+      }
+    ],
+    "LW12M": [
+      {
+        "variant": "ALL",
+        "severity_score": 1000.0,
+        "reasons": [
+          "no_zip_primary_data"
+        ],
+        "passes_all_hard_constraints": false
+      }
+    ]
+  }
+}

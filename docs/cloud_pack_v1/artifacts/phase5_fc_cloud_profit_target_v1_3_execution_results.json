@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-02-26T17:35:00+00:00",
+  "stage": "PROFIT_TARGET_V1_3",
+  "total_experiments": 8,
+  "successful": 0,
+  "failed": 0,
+  "execution_date": "2026-02-26T17:35:00+00:00",
+  "max_parallel": 0,
+  "fail_state": "NON_AUDITABLE_METRICS_SOURCE",
+  "note": "No backtest runs have been executed yet. Per STRICT REAL-RUN POLICY, financial metrics must come from backtest zip-primary JSON only. Execute generate_phase5_fc_cloud_profit_target_v1_3.py, run all experiments, then re-run analyze.",
+  "results": []
+}

@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-02-26T17:35:00+00:00",
+  "stage": "PROFIT_TARGET_V1_3",
+  "status": "FAIL_CLEAR",
+  "fail_state": "NON_AUDITABLE_METRICS_SOURCE",
+  "gate": {
+    "status": "FAIL",
+    "rule": "monthly_profit_norm_pct in [2.0,2.5] AND pf>=1.10 AND dd<=3.0% on BOTH windows, >=2 variants pass",
+    "economic_valid_ratio": 0.0,
+    "required_economic_valid_ratio": 1.0,
+    "metrics_source_audit": "FAIL_NO_BACKTEST_RUNS",
+    "variants_pass_both_windows": [],
+    "enough_passing_variants": false,
+    "traceability_ok": true
+  },
+  "total_runs": 0,
+  "valid_runs": 0,
+  "failure_modes_top3": {},
+  "non_auditable_runs": [],
+  "missing_traceability_fields": [],
+  "recommended_next_step": "Execute generate_phase5_fc_cloud_profit_target_v1_3.py, run backtests for all experiments, then re-run this analyzer."
+}

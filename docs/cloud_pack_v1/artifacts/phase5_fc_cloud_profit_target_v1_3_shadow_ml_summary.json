@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-02-26T17:35:00+00:00",
+  "stage": "PROFIT_TARGET_V1_3",
+  "shadow_ml_mode": "telemetry-only",
+  "runs_total": 0,
+  "runs_with_shadow_enabled": 0,
+  "note": "No backtest runs available. Shadow ML telemetry will be populated after real-run execution.",
+  "per_run": []
+}

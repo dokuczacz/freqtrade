@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-02-26T17:35:00+00:00",
+  "stage": "PROFIT_TARGET_V1_3",
+  "decision": "FAIL_CLEAR",
+  "fail_state": "NON_AUDITABLE_METRICS_SOURCE",
+  "failure_modes_top3": {},
+  "missing_traceability_fields": [],
+  "non_auditable_runs": [],
+  "recommended_next_step": "Execute generate_phase5_fc_cloud_profit_target_v1_3.py, run backtests for all experiments, then re-run this analyzer."
+}

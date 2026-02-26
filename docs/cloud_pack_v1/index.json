@@ -1,199 +1,271 @@
 {
   "pack_version": "cloud_pack_v1",
   "created_at_utc": "2026-02-26T16:16:31.720783+00:00",
-  "effective_state": "tail2x3_v3",
+  "effective_state": "cloud_profit_target_v1_3_realrun",
   "items": [
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v5_execution_results.json",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v5_execution_results.json",
-      "sha256": "710a32aa3a6b4f5ec767b36552e420fbd600c84b491f16449aa9ee013aa6474a",
-      "size_bytes": 37512,
+      "sha256": "221794bb344c80f9d30937150fc567ed132f7d61cf6addfb43fa127aa7caa3ee",
+      "size_bytes": 36576,
       "stage": "v5",
       "kind": "execution"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v5_summary.json",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v5_summary.json",
-      "sha256": "6d27ec970e75d958be864191f9214eed80fb7f4083c28ec88149588e8c37c424",
-      "size_bytes": 4654,
+      "sha256": "75724ceb60b85b632f5909d00b7a12169f6c71b69c4b84318bd7563395d07abe",
+      "size_bytes": 4505,
       "stage": "v5",
       "kind": "summary"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v5_table.csv",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v5_table.csv",
-      "sha256": "1fccc7b9c611fd2df290fe85df3ed50d81ae4b927e62f5990593fdc01d453b52",
-      "size_bytes": 853,
+      "sha256": "7304379c4cb0358751ad2ce3a4bceb85513f79bde4343da87bde741a33002f74",
+      "size_bytes": 848,
       "stage": "v5",
       "kind": "table"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v5_failure_modes_top3.json",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v5_failure_modes_top3.json",
-      "sha256": "4a4bf0c93777418567b232fe2683980a9a6f6a3e81f84def92b5ce9fae98754a",
-      "size_bytes": 1895,
+      "sha256": "65504fa329e040e8e77e036641012532d3f14bff81ef9e1f994e01043093ba0b",
+      "size_bytes": 1828,
       "stage": "v5",
       "kind": "failure_modes"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v5_shadow_ml_summary.json",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v5_shadow_ml_summary.json",
-      "sha256": "72613c60689ab63abc1acdf5cabb53429c71080040f6d19bd09895a5fbb6a60d",
-      "size_bytes": 3194,
+      "sha256": "1b779ba288fe1bb6993b51941d9c27c28ae836e3b705ef8282dd65243ffa46cf",
+      "size_bytes": 3090,
       "stage": "v5",
       "kind": "shadow"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v6_execution_results.json",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v6_execution_results.json",
-      "sha256": "c86d60407b9bf1689e115aae9c6676576b040ffa85f0ff18f8d090f1f46abac2",
-      "size_bytes": 37514,
+      "sha256": "b3438a1813af15ec87212f57b04c5e2bb41e84de6811127e062aa02081319fdb",
+      "size_bytes": 36578,
       "stage": "v6",
       "kind": "execution"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v6_summary.json",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v6_summary.json",
-      "sha256": "aa07c1727ce3d95e1dbce0b2cf8918c40142d3f37f5df7c11baebc0ec7ca927a",
-      "size_bytes": 4670,
+      "sha256": "5d3d4b9decdfe6186ec01e767f6eb9bf6a6956399276f35086ccca6861620981",
+      "size_bytes": 4521,
       "stage": "v6",
       "kind": "summary"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v6_table.csv",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v6_table.csv",
-      "sha256": "04a86659c5605ba8c42a58119fba3b962f54d10a3f6dd30bd2e53ae2f1091642",
-      "size_bytes": 855,
+      "sha256": "3dd930bd50e1e69c09ff7b58fe312dc7098dc7dff9e27ff446b1a06c48e031c0",
+      "size_bytes": 850,
       "stage": "v6",
       "kind": "table"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v6_failure_modes_top3.json",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v6_failure_modes_top3.json",
-      "sha256": "31c4f76f4295bfea40e9f385d81946a4d5f08f0abfea43ea756e6fff22b44539",
-      "size_bytes": 1903,
+      "sha256": "ad6b4059ea0762382876aca24d330225c59a8dcbb5762d2effe983417db565b4",
+      "size_bytes": 1836,
       "stage": "v6",
       "kind": "failure_modes"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v6_shadow_ml_summary.json",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v6_shadow_ml_summary.json",
-      "sha256": "1cbdf113539771dc37064a9890cd8992c7ed2295492f06ffeeb35ab160887cff",
-      "size_bytes": 3725,
+      "sha256": "955894499f9e1586ae142dfac5d3e50258bd20a1df0a51ebaa959bbdb664fc2a",
+      "size_bytes": 3608,
       "stage": "v6",
       "kind": "shadow"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v7_execution_results.json",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v7_execution_results.json",
-      "sha256": "ddfdb957cf1e806d8db901004b91fefa0ca49461d29be409fe0a6fc80086ad16",
-      "size_bytes": 37514,
+      "sha256": "40c66fb5e3fb8ce265bf1fe59032e75b7bd5c7c31d6e6b22b62a218bc8ffe857",
+      "size_bytes": 36578,
       "stage": "v7",
       "kind": "execution"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v7_summary.json",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v7_summary.json",
-      "sha256": "01811d32a4d9cb81cc9e5a86d8e00a44b10a881c8c8eac84542b0395d2cbf772",
-      "size_bytes": 4909,
+      "sha256": "d6dd75f8200ae3d1b0b8fd448ad3dc4800ff7ec062d2b410eb3236f001053976",
+      "size_bytes": 4756,
       "stage": "v7",
       "kind": "summary"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v7_table.csv",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v7_table.csv",
-      "sha256": "3abec197b2eacce82e3d14db10ac651cd253f76d60be138c5a85224db083653b",
-      "size_bytes": 861,
+      "sha256": "1bf31d956cfd34c124374925cb36378babe5fe9bbaabf906ebc7096d8e83c3a3",
+      "size_bytes": 856,
       "stage": "v7",
       "kind": "table"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v7_failure_modes_top3.json",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v7_failure_modes_top3.json",
-      "sha256": "ac8fc6296a103c50a97d3569e2b917347fe8eb7983eb53556df49944d7ba2c0e",
-      "size_bytes": 2005,
+      "sha256": "df31aca9699934f123112a38a93e74221e2e6450667f37c359a8945134ee4793",
+      "size_bytes": 1936,
       "stage": "v7",
       "kind": "failure_modes"
     },
     {
       "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_anchor_tail2x3_v7_shadow_ml_summary.json",
       "source_path": "user_data/backtest_results/phase5_fc_anchor_tail2x3_v7_shadow_ml_summary.json",
-      "sha256": "4843205bd92a7ec39dfe5f44c954b225d334c7c5efb06e33bc23dc9f4bc7b9cc",
-      "size_bytes": 3725,
+      "sha256": "0297d016e7075c403e5c42332e0f97acd84a1f524a422ee43090218645db778d",
+      "size_bytes": 3608,
       "stage": "v7",
       "kind": "shadow"
     },
     {
       "pack_path": "docs/cloud_pack_v1/scripts/generate_phase5_fc_anchor_tail2x3_v5.py",
       "source_path": "user_data/scripts/generate_phase5_fc_anchor_tail2x3_v5.py",
-      "sha256": "641c8f9bddcbd67251a0b54c822535a8cd8f3c435b7094cd688988a85d6aaeca",
-      "size_bytes": 8539,
+      "sha256": "4fff72ded2382c9ade3ad0da72bc2138805f68b8c1d93bb11d963f7c05fb5984",
+      "size_bytes": 8343,
       "stage": "v5",
       "kind": "script"
     },
     {
       "pack_path": "docs/cloud_pack_v1/scripts/analyze_phase5_fc_anchor_tail2x3_v5.py",
       "source_path": "user_data/scripts/analyze_phase5_fc_anchor_tail2x3_v5.py",
-      "sha256": "72a13b0e3021810823d8c5dc611bc5164db9a02ed6a8830dfcfe03da07f4575a",
-      "size_bytes": 20705,
+      "sha256": "1ff941580fa7dcf245e232fc633b1cdfb2f7eafb8cb2bf4eef429226f18cf0a1",
+      "size_bytes": 20220,
       "stage": "v5",
       "kind": "script"
     },
     {
       "pack_path": "docs/cloud_pack_v1/scripts/analyze_phase5_fc_shadow_ml_telemetry_v5.py",
       "source_path": "user_data/scripts/analyze_phase5_fc_shadow_ml_telemetry_v5.py",
-      "sha256": "4f83da8bcf1915edca4bf46e7e4fae9523b0c1b35e35de3e1e34e964de2b3b7b",
-      "size_bytes": 7278,
+      "sha256": "a1b0f241bca06a9066e9568c2772d008fdb5208ece223ef4a6346bdc38df235c",
+      "size_bytes": 7086,
       "stage": "v5",
       "kind": "script"
     },
     {
       "pack_path": "docs/cloud_pack_v1/scripts/generate_phase5_fc_anchor_tail2x3_v6.py",
       "source_path": "user_data/scripts/generate_phase5_fc_anchor_tail2x3_v6.py",
-      "sha256": "50fb557b45430cb4fdc14b2deb45fcb4db3951bf2e69db1c9fa30e804c50762e",
-      "size_bytes": 8827,
+      "sha256": "c291f0bae59c5884b58f99889a5a622b3f3cb30e75d000f21621b3e843b13c37",
+      "size_bytes": 8626,
       "stage": "v6",
       "kind": "script"
     },
     {
       "pack_path": "docs/cloud_pack_v1/scripts/analyze_phase5_fc_anchor_tail2x3_v6.py",
       "source_path": "user_data/scripts/analyze_phase5_fc_anchor_tail2x3_v6.py",
-      "sha256": "cbe665d808c30a1c8711b8eae113c0b52444046d5f56ae653d755cfff678b11b",
-      "size_bytes": 20705,
+      "sha256": "add0af2923dac2146084db6c86d2181497461df949f225706aeaff9d07bd2a35",
+      "size_bytes": 20220,
       "stage": "v6",
       "kind": "script"
     },
     {
       "pack_path": "docs/cloud_pack_v1/scripts/analyze_phase5_fc_shadow_ml_telemetry_v6.py",
       "source_path": "user_data/scripts/analyze_phase5_fc_shadow_ml_telemetry_v6.py",
-      "sha256": "c59c82a020332883ab5fff9e9ba973158d97783b0cd5529edb273be5de4114bb",
-      "size_bytes": 7278,
+      "sha256": "3453debbe9053aae4bac6774fe68126e4a4916a8dd0418b9caec4bcb1978f248",
+      "size_bytes": 7086,
       "stage": "v6",
       "kind": "script"
     },
     {
       "pack_path": "docs/cloud_pack_v1/scripts/generate_phase5_fc_anchor_tail2x3_v7.py",
       "source_path": "user_data/scripts/generate_phase5_fc_anchor_tail2x3_v7.py",
-      "sha256": "e3d0e16efa385c734b5ffa0811d5c6fc8f1e835999f1cc0ee27de311302e985f",
-      "size_bytes": 8870,
+      "sha256": "9270c7d8c8e82424f225e72d254f4fc80cd393b9254ae713196e09f00eb6aee8",
+      "size_bytes": 8668,
       "stage": "v7",
       "kind": "script"
     },
     {
       "pack_path": "docs/cloud_pack_v1/scripts/analyze_phase5_fc_anchor_tail2x3_v7.py",
       "source_path": "user_data/scripts/analyze_phase5_fc_anchor_tail2x3_v7.py",
-      "sha256": "41c72a05fac976e7874c1efcc4616afa6b3fb611cda61e17acfa8e36334b2951",
-      "size_bytes": 20971,
+      "sha256": "2c56da188dc92e459f362c9b467b63d8b957431195a91b219409108184643e76",
+      "size_bytes": 20484,
       "stage": "v7",
       "kind": "script"
     },
     {
       "pack_path": "docs/cloud_pack_v1/sot/poziom2_handoff_status.json",
       "source_path": "user_data/backtest_results/poziom2_handoff_status.json",
-      "sha256": "b379e49b6783482324fb0c988efcb3d2f81b4935820c6754ecaf923668811522",
-      "size_bytes": 213368,
+      "sha256": "85b1bd8cd27a3251455e239b12a90268fa83e686baf4076e5a8fac62927e5832",
+      "size_bytes": 208285,
       "stage": "sot",
       "kind": "sot"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_3_manifest.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_3_manifest.json",
+      "sha256": "f076f731e09aee55a648707ce76e869b17a9c20901371f94c1fb780f2bbacddd",
+      "size_bytes": 14912,
+      "stage": "cloud_profit_target_v1_3_realrun",
+      "kind": "manifest"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_3_execution_results.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_3_execution_results.json",
+      "sha256": "b01050eb80a3ac2966b555e1af4d851afecd5789891ecf9c646001a0e4c328f4",
+      "size_bytes": 522,
+      "stage": "cloud_profit_target_v1_3_realrun",
+      "kind": "execution"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_3_summary.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_3_summary.json",
+      "sha256": "921b39265d2da4a7da9ac13c668f79e6b510e80937f006832299f18139c94014",
+      "size_bytes": 819,
+      "stage": "cloud_profit_target_v1_3_realrun",
+      "kind": "summary"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_3_decision_summary.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_3_decision_summary.json",
+      "sha256": "cc33d73d2576e557ac3688a4f84d6ed21d4278e6634f7da543e397457e7f4f0d",
+      "size_bytes": 399,
+      "stage": "cloud_profit_target_v1_3_realrun",
+      "kind": "decision"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_3_table.csv",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_3_table.csv",
+      "sha256": "d13f20eec1d015dc5e3eb36cdba7bfda760e9328aed1f006430150e91572fd10",
+      "size_bytes": 541,
+      "stage": "cloud_profit_target_v1_3_realrun",
+      "kind": "table"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_3_failure_modes_top3.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_3_failure_modes_top3.json",
+      "sha256": "30a068dbeb9664f12a5a66db438cafdcd910f35f9eeb4680926c59dc2b4b5723",
+      "size_bytes": 624,
+      "stage": "cloud_profit_target_v1_3_realrun",
+      "kind": "failure_modes"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_3_shadow_ml_summary.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_3_shadow_ml_summary.json",
+      "sha256": "9ff5b4c442e63fa5a9bdb16837de405de3bd4a7b71881e8437dcbb5af494dcc6",
+      "size_bytes": 294,
+      "stage": "cloud_profit_target_v1_3_realrun",
+      "kind": "shadow"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_3_validation_report.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_3_validation_report.json",
+      "sha256": "75e08ca4b07358257cde3b3bb1dfc8e7fcf86b45a096451c58ac2da288ae3ed4",
+      "size_bytes": 658,
+      "stage": "cloud_profit_target_v1_3_realrun",
+      "kind": "validation"
+    },
+    {
+      "pack_path": "docs/cloud_pack_v1/artifacts/phase5_fc_cloud_profit_target_v1_3_sot_update_patch.json",
+      "source_path": "user_data/backtest_results/phase5_fc_cloud_profit_target_v1_3_sot_update_patch.json",
+      "sha256": "32f514d758223189bde30518325e404a2b93c24b00926a9466313f593e7e7652",
+      "size_bytes": 488,
+      "stage": "cloud_profit_target_v1_3_realrun",
+      "kind": "sot_patch"
     }
   ]
 }
